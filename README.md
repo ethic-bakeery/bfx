@@ -30,13 +30,13 @@ I built it as a learning project and a practical tool. If it helps other analyst
 
 Your browser is constantly writing data to SQLite database files on your computer. Chrome alone keeps:
 
-- **History** —> every URL you visited, when you visited it, how many times
-- **Downloads** —> every file you downloaded, where it came from, where it went
-- **Searches** —> every query you typed into the address bar
-- **Login Data** —> saved usernames and (encrypted) passwords
-- **Autofill** —> every value you ever typed into a web form
-- **Favicons** —> cached icons that can prove a site was visited even after history is cleared
-- **Cookies** —> session data from every site
+- **History** every URL you visited, when you visited it, how many times
+- **Downloads** every file you downloaded, where it came from, where it went
+- **Searches** every query you typed into the address bar
+- **Login Data** saved usernames and (encrypted) passwords
+- **Autofill** every value you ever typed into a web form
+- **Favicons** cached icons that can prove a site was visited even after history is cleared
+- **Cookies** session data from every site
 
 These files are stored in a folder on your computer and they're not going anywhere. `bfx export` reads all of them, converts everything into clean CSVs, and then `bfx` gives you a fast, readable terminal interface to investigate them.
 
@@ -203,7 +203,7 @@ bfx --session bfx_export list
   Full list written to: skipped_tables.txt
 ```
 
-The name on the left of each line — `urls`, `downloads`, `logins`, `visits` — is the **alias**. That's what you use in every other command. Empty tables don't clutter your screen; they get quietly written to `skipped_tables.txt` so you can check them if needed.
+The name on the left of each line — `urls`, `downloads`, `logins`, `visits` is the **alias**. That's what you use in every other command. Empty tables don't clutter your screen; they get quietly written to `skipped_tables.txt` so you can check them if needed.
 
 ---
 
@@ -245,7 +245,7 @@ bfx --session bfx_export head logins --rows 5
   1 record(s)
 ```
 
-Wide tables — like `downloads` which has 28 columns automatically display as vertical cards so nothing gets squashed. The `->` lines are enrichment values bfx added: the domain extracted from the URL, the URL category, and the timestamp converted to a readable date.
+Wide tables like `downloads` which has 28 columns automatically display as vertical cards so nothing gets squashed. The `->` lines are enrichment values bfx added: the domain extracted from the URL, the URL category, and the timestamp converted to a readable date.
 
 ---
 
@@ -554,7 +554,7 @@ In the terminal output, enrichment values show up as `->` lines directly below t
                    -> 2023-10-14 09:00:00 UTC | (WebKit (Chrome))
 ```
 
-You don't have to remember which timestamp format Chrome uses. bfx handles five different formats — WebKit microseconds, Unix seconds, Unix milliseconds, Apple Cocoa, and PRTime — and auto-detects the right one.
+You don't have to remember which timestamp format Chrome uses. bfx handles five different formats WebKit microseconds, Unix seconds, Unix milliseconds, Apple Cocoa, and PRTime — and auto-detects the right one.
 
 ---
 
@@ -714,7 +714,7 @@ segments                                  table is empty (0 data rows)    segmen
 
 ## Colour Output
 
-bfx uses colour output automatically when it detects a supported terminal. It's smart about this — it won't try to use colour in Windows CMD (where ANSI codes print as raw characters), but it will use it in Windows Terminal, PowerShell with colour support, VS Code's integrated terminal, and all Unix terminals.
+bfx uses colour output automatically when it detects a supported terminal. It's smart about this it won't try to use colour in Windows CMD (where ANSI codes print as raw characters), but it will use it in Windows Terminal, PowerShell with colour support, VS Code's integrated terminal, and all Unix terminals.
 
 To disable colour output manually:
 
@@ -805,7 +805,7 @@ Adding a new command takes three steps: create `commands/cmd_newname.py` with a 
 ## Known Limitations
 
 - **Passwords are not decrypted.** Chrome encrypts saved passwords using Windows DPAPI (or macOS Keychain). bfx exports the encrypted blob so you can see that a credential exists and when it was saved, but not the password itself. Decryption requires separate tooling and the user's OS credentials.
-- **Incognito sessions don't leave history rows**, but they may still leave favicon cache entries, DNS cache entries, and crash dump data. bfx exports whatever is on disk — it can't recover what was never written.
+- **Incognito sessions don't leave history rows**, but they may still leave favicon cache entries, DNS cache entries, and crash dump data. bfx exports whatever is on disk it can't recover what was never written.
 - **Deleted records are not recovered.** When a user clears their browser history, Chrome deletes the rows from the SQLite database. The space is marked as free and may still contain recoverable data, but bfx reads live rows only. For deleted record recovery, use a dedicated SQLite carving tool alongside bfx.
 - **Firefox support is partial.** The export engine reads any SQLite file it finds, so Firefox databases will export. However, Firefox uses slightly different table names and timestamp formats. The enrichment logic is optimised for Chromium-based browsers.
 
