@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data
+# DB Description,"Autofill, Forms & Credit Cards"
+# Table,offer_data
+# Table Description,offer_data
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:56:08 UTC
+# MD5 Hash of Source DB,18dd63a1b36a3f929c9a6e4e99a53362
+
+offer_id,offer_reward_amount,expiry,offer_details_url,merchant_domain,promo_code,value_prop_text,see_details_text,usage_instructions_text,expiry__HUMAN,expiry__FORMAT,offer_details_url__DOMAIN,offer_details_url__CATEGORY,merchant_domain__DOMAIN,merchant_domain__CATEGORY

@@ -1,0 +1,189 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data
+# DB Description,"Autofill, Forms & Credit Cards"
+# Table,autofill
+# Table Description,Autofill form field values
+# Total Rows in DB,179
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,18dd63a1b36a3f929c9a6e4e99a53362
+
+name,value,value_lower,date_created,date_last_used,count,date_created__HUMAN,date_created__FORMAT,date_last_used__HUMAN,date_last_used__FORMAT
+identifier,nngalliance@gmail.com,nngalliance@gmail.com,1754993940,1754993940,1,2025-08-12 10:19:00 UTC,Unix s,2025-08-12 10:19:00 UTC,Unix s
+identifier,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1754997958,1755721783,2,2025-08-12 11:25:58 UTC,Unix s,2025-08-20 20:29:43 UTC,Unix s
+identifier,bakeery.wtf@gmail.com,bakeery.wtf@gmail.com,1755013905,1758888281,4,2025-08-12 15:51:45 UTC,Unix s,2025-09-26 12:04:41 UTC,Unix s
+usernameOrEmail,bakeery,bakeery,1755014195,1758249259,4,2025-08-12 15:56:35 UTC,Unix s,2025-09-19 02:34:19 UTC,Unix s
+login,nngalliance@gmail.com,nngalliance@gmail.com,1755176644,1755176644,1,2025-08-14 13:04:04 UTC,Unix s,2025-08-14 13:04:04 UTC,Unix s
+notion-email-input-2,aburevruez@gmail.com,aburevruez@gmail.com,1755207562,1756972628,2,2025-08-14 21:39:22 UTC,Unix s,2025-09-04 07:57:08 UTC,Unix s
+email,nngalliance@gmail.com,nngalliance@gmail.com,1755242347,1758022999,4,2025-08-15 07:19:07 UTC,Unix s,2025-09-16 11:43:19 UTC,Unix s
+firstName,Abubakar,abubakar,1755242347,1755451938,2,2025-08-15 07:19:07 UTC,Unix s,2025-08-17 17:32:18 UTC,Unix s
+lastName,Usman,usman,1755242347,1755451938,2,2025-08-15 07:19:07 UTC,Unix s,2025-08-17 17:32:18 UTC,Unix s
+10473,Abubakar,abubakar,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+10474,Usman,usman,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9005,"Potheri Kattankullathur, Chennai","potheri kattankullathur, chennai",1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9010,603203,603203,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9011,nngalliance@gmail.com,nngalliance@gmail.com,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9012,8122532600,8122532600,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9014-1-0,B.Tech in Computer Science and Engineering,b.tech in computer science and engineering,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9014-3-0,SRM Institute of Science and Technology,srm institute of science and technology,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9014-1-1,Diploma in Information Technology,diploma in information technology,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9014-3-1,"Modibbo Adama University, Adamawa state","modibbo adama university, adamawa state",1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9017-1-0,Yeswehack,yeswehack,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9017-2-0,Bugbounty Hunter,bugbounty hunter,1755242940,1755242990,3,2025-08-15 07:29:00 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+9009,Chennai,chennai,1755242970,1755242990,2,2025-08-15 07:29:30 UTC,Unix s,2025-08-15 07:29:50 UTC,Unix s
+10900,Abubakar,abubakar,1755243134,1755243213,2,2025-08-15 07:32:14 UTC,Unix s,2025-08-15 07:33:33 UTC,Unix s
+10901,Usman,usman,1755243134,1755243213,2,2025-08-15 07:32:14 UTC,Unix s,2025-08-15 07:33:33 UTC,Unix s
+q,catch me if you can,catch me if you can,1755247942,1755247942,1,2025-08-15 08:52:22 UTC,Unix s,2025-08-15 08:52:22 UTC,Unix s
+login,bakeery-dev,bakeery-dev,1755441434,1757604303,2,2025-08-17 14:37:14 UTC,Unix s,2025-09-11 15:25:03 UTC,Unix s
+input-_R_56inpfiuknil76lb_,nngall,nngall,1755441550,1755441550,1,2025-08-17 14:39:10 UTC,Unix s,2025-08-17 14:39:10 UTC,Unix s
+input-_R_56inpfiuknil76lb_,cryfor419@gmail.com,cryfor419@gmail.com,1755441672,1755441672,1,2025-08-17 14:41:12 UTC,Unix s,2025-08-17 14:41:12 UTC,Unix s
+username,bakeery,bakeery,1755443032,1756160750,3,2025-08-17 15:03:52 UTC,Unix s,2025-08-25 22:25:50 UTC,Unix s
+signup-email,bakeery@gmail.com,bakeery@gmail.com,1755443032,1755446331,2,2025-08-17 15:03:52 UTC,Unix s,2025-08-17 15:58:51 UTC,Unix s
+email,bakeery@gmail.com,bakeery@gmail.com,1755443058,1757957574,10,2025-08-17 15:04:18 UTC,Unix s,2025-09-15 17:32:54 UTC,Unix s
+fullName,John Doe,john doe,1755443468,1755443468,1,2025-08-17 15:11:08 UTC,Unix s,2025-08-17 15:11:08 UTC,Unix s
+phone,+234 801 234 5678,+234 801 234 5678,1755443468,1755443468,1,2025-08-17 15:11:08 UTC,Unix s,2025-08-17 15:11:08 UTC,Unix s
+lga,Ikeja,ikeja,1755443468,1755443468,1,2025-08-17 15:11:08 UTC,Unix s,2025-08-17 15:11:08 UTC,Unix s
+projectName,nura,nura,1755445499,1755445499,1,2025-08-17 15:44:59 UTC,Unix s,2025-08-17 15:44:59 UTC,Unix s
+create-repo-name,nura-dev,nura-dev,1755445889,1755445889,1,2025-08-17 15:51:29 UTC,Unix s,2025-08-17 15:51:29 UTC,Unix s
+phoneNumber,8366721123,8366721123,1755451938,1755451938,1,2025-08-17 17:32:18 UTC,Unix s,2025-08-17 17:32:18 UTC,Unix s
+lga,Yola,yola,1755451938,1755451938,1,2025-08-17 17:32:18 UTC,Unix s,2025-08-17 17:32:18 UTC,Unix s
+occupation,Student,student,1755451938,1755451938,1,2025-08-17 17:32:18 UTC,Unix s,2025-08-17 17:32:18 UTC,Unix s
+firstName,samuel,samuel,1755524923,1755525001,2,2025-08-18 13:48:43 UTC,Unix s,2025-08-18 13:50:01 UTC,Unix s
+lastName,Kamal,kamal,1755524923,1755525001,2,2025-08-18 13:48:43 UTC,Unix s,2025-08-18 13:50:01 UTC,Unix s
+emailAddress,kamal@srmi.in,kamal@srmi.in,1755524923,1755524923,1,2025-08-18 13:48:43 UTC,Unix s,2025-08-18 13:48:43 UTC,Unix s
+emailAddress,vigab62607@colimarl.com,vigab62607@colimarl.com,1755525001,1755525001,1,2025-08-18 13:50:01 UTC,Unix s,2025-08-18 13:50:01 UTC,Unix s
+name,Bakeery,bakeery,1755721218,1757607178,3,2025-08-20 20:20:18 UTC,Unix s,2025-09-11 16:12:58 UTC,Unix s
+firstName,bakeery,bakeery,1755721611,1755721611,1,2025-08-20 20:26:51 UTC,Unix s,2025-08-20 20:26:51 UTC,Unix s
+quantity,1,1,1755974313,1755974313,1,2025-08-23 18:38:33 UTC,Unix s,2025-08-23 18:38:33 UTC,Unix s
+updates[],1,1,1755974324,1755974324,1,2025-08-23 18:38:44 UTC,Unix s,2025-08-23 18:38:44 UTC,Unix s
+FirstName,kamal,kamal,1755977383,1755977715,2,2025-08-23 19:29:43 UTC,Unix s,2025-08-23 19:35:15 UTC,Unix s
+LastName,samuel,samuel,1755977383,1755977715,2,2025-08-23 19:29:43 UTC,Unix s,2025-08-23 19:35:15 UTC,Unix s
+Email,kamal@srmist.edu.in,kamal@srmist.edu.in,1755977383,1755977715,2,2025-08-23 19:29:43 UTC,Unix s,2025-08-23 19:35:15 UTC,Unix s
+Company,srmist,srmist,1755977383,1755977715,2,2025-08-23 19:29:43 UTC,Unix s,2025-08-23 19:35:15 UTC,Unix s
+Phone,+918122648222,+918122648222,1755977383,1755977715,2,2025-08-23 19:29:43 UTC,Unix s,2025-08-23 19:35:15 UTC,Unix s
+by,Cyber security,cyber security,1756108436,1756108436,1,2025-08-25 07:53:56 UTC,Unix s,2025-08-25 07:53:56 UTC,Unix s
+email,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1756109202,1758238597,15,2025-08-25 08:06:42 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+first-name,bakeery,bakeery,1756159596,1756160750,2,2025-08-25 22:06:36 UTC,Unix s,2025-08-25 22:25:50 UTC,Unix s
+last-name,user,user,1756160750,1756160750,1,2025-08-25 22:25:50 UTC,Unix s,2025-08-25 22:25:50 UTC,Unix s
+company,srmi,srmi,1756160750,1756160750,1,2025-08-25 22:25:50 UTC,Unix s,2025-08-25 22:25:50 UTC,Unix s
+firstname,Abubakar,abubakar,1756161128,1756161128,1,2025-08-25 22:32:08 UTC,Unix s,2025-08-25 22:32:08 UTC,Unix s
+lastname,Usman,usman,1756161128,1756161128,1,2025-08-25 22:32:08 UTC,Unix s,2025-08-25 22:32:08 UTC,Unix s
+company,SRMIST,srmist,1756161128,1756161128,1,2025-08-25 22:32:08 UTC,Unix s,2025-08-25 22:32:08 UTC,Unix s
+jobtitle,Security Analyst,security analyst,1756161128,1756161128,1,2025-08-25 22:32:08 UTC,Unix s,2025-08-25 22:32:08 UTC,Unix s
+email,au6576@srmist.edu.in,au6576@srmist.edu.in,1756161128,1756161128,1,2025-08-25 22:32:08 UTC,Unix s,2025-08-25 22:32:08 UTC,Unix s
+how_did_you_hear_about_us_,google,google,1756161128,1756161128,1,2025-08-25 22:32:08 UTC,Unix s,2025-08-25 22:32:08 UTC,Unix s
+first-name,Abubakar,abubakar,1756208643,1756208691,2,2025-08-26 11:44:03 UTC,Unix s,2025-08-26 11:44:51 UTC,Unix s
+last-name,Usman,usman,1756208643,1756208691,2,2025-08-26 11:44:03 UTC,Unix s,2025-08-26 11:44:51 UTC,Unix s
+email-or-phone,abu327468@gmail.com,abu327468@gmail.com,1756208643,1756208691,2,2025-08-26 11:44:03 UTC,Unix s,2025-08-26 11:44:51 UTC,Unix s
+session_key,abu327468@gmail.com,abu327468@gmail.com,1756208666,1756208666,1,2025-08-26 11:44:26 UTC,Unix s,2025-08-26 11:44:26 UTC,Unix s
+identifier,abu327468@gmail.com,abu327468@gmail.com,1756208724,1756208756,2,2025-08-26 11:45:24 UTC,Unix s,2025-08-26 11:45:56 UTC,Unix s
+identifier,au6576@srmist.edu.in,au6576@srmist.edu.in,1756474396,1757724736,3,2025-08-29 13:33:16 UTC,Unix s,2025-09-13 00:52:16 UTC,Unix s
+q,security analyst Internship,security analyst internship,1756731416,1756731416,1,2025-09-01 12:56:56 UTC,Unix s,2025-09-01 12:56:56 UTC,Unix s
+q,soc analyst Internship,soc analyst internship,1756731450,1756731450,1,2025-09-01 12:57:30 UTC,Unix s,2025-09-01 12:57:30 UTC,Unix s
+q,soc analyst,soc analyst,1756731464,1756731464,1,2025-09-01 12:57:44 UTC,Unix s,2025-09-01 12:57:44 UTC,Unix s
+q,cybersecurity,cybersecurity,1756731483,1756731483,1,2025-09-01 12:58:03 UTC,Unix s,2025-09-01 12:58:03 UTC,Unix s
+search,Security Analyst intership,security analyst intership,1756731860,1756731860,1,2025-09-01 13:04:20 UTC,Unix s,2025-09-01 13:04:20 UTC,Unix s
+search,intership,intership,1756731868,1756731868,1,2025-09-01 13:04:28 UTC,Unix s,2025-09-01 13:04:28 UTC,Unix s
+search,Security Analyst,security analyst,1756731880,1756731880,1,2025-09-01 13:04:40 UTC,Unix s,2025-09-01 13:04:40 UTC,Unix s
+LOGIN_ID,ex@gmail.com,ex@gmail.com,1756741754,1756743159,3,2025-09-01 15:49:14 UTC,Unix s,2025-09-01 16:12:39 UTC,Unix s
+LOGIN_ID,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1756742584,1756742584,1,2025-09-01 16:03:04 UTC,Unix s,2025-09-01 16:03:04 UTC,Unix s
+loginfmt,info@ega.ae,info@ega.ae,1756750499,1756750499,1,2025-09-01 18:14:59 UTC,Unix s,2025-09-01 18:14:59 UTC,Unix s
+first_name,Abubakar,abubakar,1756758766,1758238597,4,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+last_name,Usman,usman,1756758766,1758238597,4,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+pass_no,A12582013,a12582013,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+areaCode,000,000,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+phoneNumber,9030327468,9030327468,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+contactAddress[address1],23 Bauchi Street,23 bauchi street,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+contactAddress[city],Jimeta,jimeta,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+contactAddress[state],Adamawa,adamawa,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+contactAddress[zip],640211,640211,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+u_grad,SRM Institute of Science and Technology,srm institute of science and technology,1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+major,Computer Science and Engineering (Cyber Security),computer science and engineering (cyber security),1756758766,1758238597,3,2025-09-01 20:32:46 UTC,Unix s,2025-09-18 23:36:37 UTC,Unix s
+loginfmt,cryfor419@gmail.com,cryfor419@gmail.com,1756907183,1756907183,1,2025-09-03 13:46:23 UTC,Unix s,2025-09-03 13:46:23 UTC,Unix s
+CommitNewDocumentTitle,motivation letter prototype,motivation letter prototype,1756908027,1756908027,1,2025-09-03 14:00:27 UTC,Unix s,2025-09-03 14:00:27 UTC,Unix s
+CommitNewDocumentTitle,motivation letter,motivation letter,1756908064,1756908064,1,2025-09-03 14:01:04 UTC,Unix s,2025-09-03 14:01:04 UTC,Unix s
+CommitNewDocumentTitle,updated new lor,updated new lor,1756920895,1756920895,1,2025-09-03 17:34:55 UTC,Unix s,2025-09-03 17:34:55 UTC,Unix s
+CommitNewDocumentTitle,900+lor,900+lor,1756922093,1756922093,1,2025-09-03 17:54:53 UTC,Unix s,2025-09-03 17:54:53 UTC,Unix s
+CommitNewDocumentTitle,800+lor,800+lor,1756922200,1756922200,1,2025-09-03 17:56:40 UTC,Unix s,2025-09-03 17:56:40 UTC,Unix s
+identifier,cryfor419@gmail.com,cryfor419@gmail.com,1756959360,1756959360,1,2025-09-04 04:16:00 UTC,Unix s,2025-09-04 04:16:00 UTC,Unix s
+signup_email,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1756968892,1756968892,1,2025-09-04 06:54:52 UTC,Unix s,2025-09-04 06:54:52 UTC,Unix s
+log,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1756968951,1756968951,1,2025-09-04 06:55:51 UTC,Unix s,2025-09-04 06:55:51 UTC,Unix s
+user_login,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1756969218,1756969218,1,2025-09-04 07:00:18 UTC,Unix s,2025-09-04 07:00:18 UTC,Unix s
+CommitNewDocumentTitle,letter of recommendation 2,letter of recommendation 2,1757061798,1757061798,1,2025-09-05 08:43:18 UTC,Unix s,2025-09-05 08:43:18 UTC,Unix s
+signup_email,abu327468@gmail.com,abu327468@gmail.com,1757064492,1757064492,1,2025-09-05 09:28:12 UTC,Unix s,2025-09-05 09:28:12 UTC,Unix s
+somfrp_user_info,abu327468@gmail.com,abu327468@gmail.com,1757064610,1757064610,1,2025-09-05 09:30:10 UTC,Unix s,2025-09-05 09:30:10 UTC,Unix s
+somfrp_user_info,bakeery,bakeery,1757064630,1757064630,1,2025-09-05 09:30:30 UTC,Unix s,2025-09-05 09:30:30 UTC,Unix s
+keySkills,"Machine Learning, Networking, Incident Response, Threat Hunting, Digital Forensic, Malware Analysis","machine learning, networking, incident response, threat hunting, digital forensic, malware analysis",1757070335,1757070335,1,2025-09-05 11:05:35 UTC,Unix s,2025-09-05 11:05:35 UTC,Unix s
+passportNumber,A12582013,a12582013,1757070335,1757070655,2,2025-09-05 11:05:35 UTC,Unix s,2025-09-05 11:10:55 UTC,Unix s
+resProofAuthority,"Foreigners Regional Registration Office under The Ministry of Home Affairs, Government of India.","foreigners regional registration office under the ministry of home affairs, government of india.",1757070335,1757070734,2,2025-09-05 11:05:35 UTC,Unix s,2025-09-05 11:12:14 UTC,Unix s
+keySkills,"Incident Response, Machine Learning, Networking, Incident Response, Threat Hunting, Digital Forensic","incident response, machine learning, networking, incident response, threat hunting, digital forensic",1757070545,1757070545,1,2025-09-05 11:09:05 UTC,Unix s,2025-09-05 11:09:05 UTC,Unix s
+name,Bakeeryipl,bakeeryipl,1757174795,1757174795,1,2025-09-06 16:06:35 UTC,Unix s,2025-09-06 16:06:35 UTC,Unix s
+FirstName,Abubakar,abubakar,1757274479,1757274479,1,2025-09-07 19:47:59 UTC,Unix s,2025-09-07 19:47:59 UTC,Unix s
+LastName,Usman,usman,1757274479,1757274479,1,2025-09-07 19:47:59 UTC,Unix s,2025-09-07 19:47:59 UTC,Unix s
+Email,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1757274479,1757274479,1,2025-09-07 19:47:59 UTC,Unix s,2025-09-07 19:47:59 UTC,Unix s
+Phone,+916383555816,+916383555816,1757274479,1757274479,1,2025-09-07 19:47:59 UTC,Unix s,2025-09-07 19:47:59 UTC,Unix s
+q,permit issue to comapnies,permit issue to comapnies,1757433310,1757433310,1,2025-09-09 15:55:10 UTC,Unix s,2025-09-09 15:55:10 UTC,Unix s
+q,Permits issued to companies,permits issued to companies,1757433341,1757433341,1,2025-09-09 15:55:41 UTC,Unix s,2025-09-09 15:55:41 UTC,Unix s
+q,mabc,mabc,1757505119,1757505119,1,2025-09-10 11:51:59 UTC,Unix s,2025-09-10 11:51:59 UTC,Unix s
+43312_361227pi_43312_361227,kamal,kamal,1757506243,1757506243,1,2025-09-10 12:10:43 UTC,Unix s,2025-09-10 12:10:43 UTC,Unix s
+43312_361230pi_43312_361230,sameuk,sameuk,1757506243,1757506243,1,2025-09-10 12:10:43 UTC,Unix s,2025-09-10 12:10:43 UTC,Unix s
+43312_361233pi_43312_361233,kamal@srmist.edu.in,kamal@srmist.edu.in,1757506243,1757506243,1,2025-09-10 12:10:43 UTC,Unix s,2025-09-10 12:10:43 UTC,Unix s
+43312_361236pi_43312_361236,srmist,srmist,1757506243,1757506243,1,2025-09-10 12:10:43 UTC,Unix s,2025-09-10 12:10:43 UTC,Unix s
+43312_361239pi_43312_361239,analyst,analyst,1757506243,1757506243,1,2025-09-10 12:10:43 UTC,Unix s,2025-09-10 12:10:43 UTC,Unix s
+username_or_email,bakeery,bakeery,1757544815,1757544835,2,2025-09-10 22:53:35 UTC,Unix s,2025-09-10 22:53:55 UTC,Unix s
+primary-email,ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1757700847,1757700847,1,2025-09-12 18:14:07 UTC,Unix s,2025-09-12 18:14:07 UTC,Unix s
+legalName--firstName,Abubakar,abubakar,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+legalName--lastName,Usman,usman,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+preferredName--firstName,Abubakar,abubakar,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+preferredName--lastName,Usman,usman,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+preferredName--lastNameLocal,bakeery,bakeery,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+city,Chennai,chennai,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+postalCode,602320,602320,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+phoneNumber,6383555816,6383555816,1757702263,1757702263,1,2025-09-12 18:37:43 UTC,Unix s,2025-09-12 18:37:43 UTC,Unix s
+education-431--lastYearAttended-dateSectionYear-input,2026,2026,1757702308,1757702362,3,2025-09-12 18:38:28 UTC,Unix s,2025-09-12 18:39:22 UTC,Unix s
+gradeAverage,4.3/5,4.3/5,1757702308,1757702341,2,2025-09-12 18:38:28 UTC,Unix s,2025-09-12 18:39:01 UTC,Unix s
+education-432--firstYearAttended-dateSectionYear-input,2020,2020,1757702308,1757702341,2,2025-09-12 18:38:28 UTC,Unix s,2025-09-12 18:39:01 UTC,Unix s
+education-432--lastYearAttended-dateSectionYear-input,2022,2022,1757702308,1757702341,2,2025-09-12 18:38:28 UTC,Unix s,2025-09-12 18:39:01 UTC,Unix s
+gradeAverage,8.6/10,8.6/10,1757702501,1757702601,2,2025-09-12 18:41:41 UTC,Unix s,2025-09-12 18:43:21 UTC,Unix s
+education-430--firstYearAttended-dateSectionYear-input,2022,2022,1757702501,1757702601,2,2025-09-12 18:41:41 UTC,Unix s,2025-09-12 18:43:21 UTC,Unix s
+education-430--lastYearAttended-dateSectionYear-input,2026,2026,1757702501,1757702601,2,2025-09-12 18:41:41 UTC,Unix s,2025-09-12 18:43:21 UTC,Unix s
+linkedInAccount,https://linkedin.com/in/abubakar-usman-011115263,https://linkedin.com/in/abubakar-usman-011115263,1757702501,1757702501,1,2025-09-12 18:41:41 UTC,Unix s,2025-09-12 18:41:41 UTC,Unix s
+fj374,security,security,1757704645,1757704645,1,2025-09-12 19:17:25 UTC,Unix s,2025-09-12 19:17:25 UTC,Unix s
+phone,8122532600,8122532600,1757704804,1757704804,1,2025-09-12 19:20:04 UTC,Unix s,2025-09-12 19:20:04 UTC,Unix s
+question_8087098004,https://linkedin.com/in/abubakar-usman-011115263,https://linkedin.com/in/abubakar-usman-011115263,1757704804,1757704804,1,2025-09-12 19:20:04 UTC,Unix s,2025-09-12 19:20:04 UTC,Unix s
+question_8128312004,7LPA,7lpa,1757704804,1757704804,1,2025-09-12 19:20:04 UTC,Unix s,2025-09-12 19:20:04 UTC,Unix s
+applicant[first_name],Abubakar,abubakar,1758030978,1758031520,3,2025-09-16 13:56:18 UTC,Unix s,2025-09-16 14:05:20 UTC,Unix s
+applicant[last_name],Usman,usman,1758030978,1758031520,3,2025-09-16 13:56:18 UTC,Unix s,2025-09-16 14:05:20 UTC,Unix s
+applicant[email_addresses][0][address],ethic.bakeery@gmail.com,ethic.bakeery@gmail.com,1758030978,1758031520,3,2025-09-16 13:56:18 UTC,Unix s,2025-09-16 14:05:20 UTC,Unix s
+applicant[addresses][0][street],23 hbauchi,23 hbauchi,1758030978,1758030994,2,2025-09-16 13:56:18 UTC,Unix s,2025-09-16 13:56:34 UTC,Unix s
+applicant[addresses][0][city],Chennai,chennai,1758030978,1758031520,3,2025-09-16 13:56:18 UTC,Unix s,2025-09-16 14:05:20 UTC,Unix s
+applicant[addresses][0][zip_code],64001,64001,1758030978,1758030994,2,2025-09-16 13:56:18 UTC,Unix s,2025-09-16 13:56:34 UTC,Unix s
+SALARY,50000,50000,1758031050,1758031651,2,2025-09-16 13:57:30 UTC,Unix s,2025-09-16 14:07:31 UTC,Unix s
+HIGHEST_AREA_OF_STUDY,Computer Science and Engineering specialization in Cybersecurity,computer science and engineering specialization in cybersecurity,1758031164,1758031164,1,2025-09-16 13:59:24 UTC,Unix s,2025-09-16 13:59:24 UTC,Unix s
+16900a8b-cbb6-1b76-27c1-5048b63fd9cb,2026,2026,1758031238,1758049158,2,2025-09-16 14:00:38 UTC,Unix s,2025-09-16 18:59:18 UTC,Unix s
+055ee6a4-4f86-02ac-a930-67ef368369ae,Yes,yes,1758031238,1758031238,1,2025-09-16 14:00:38 UTC,Unix s,2025-09-16 14:00:38 UTC,Unix s
+applicant[addresses][0][street],"R2FV+6Q7, Potheri, SRM Nagar, Kattankulathur","r2fv+6q7, potheri, srm nagar, kattankulathur",1758031520,1758031520,1,2025-09-16 14:05:20 UTC,Unix s,2025-09-16 14:05:20 UTC,Unix s
+applicant[addresses][0][zip_code],603203,603203,1758031520,1758031520,1,2025-09-16 14:05:20 UTC,Unix s,2025-09-16 14:05:20 UTC,Unix s
+0cd86e85-e036-c726-36c4-bc48eeb3b046,SRM Institute of Science and Technology,srm institute of science and technology,1758049158,1758049158,1,2025-09-16 18:59:18 UTC,Unix s,2025-09-16 18:59:18 UTC,Unix s
+email,cryfor418@gmail.com,cryfor418@gmail.com,1758054995,1758054995,1,2025-09-16 20:36:35 UTC,Unix s,2025-09-16 20:36:35 UTC,Unix s
+react-aria3090779176-«rl»,cryfor418@gmail.com,cryfor418@gmail.com,1758055003,1758055003,1,2025-09-16 20:36:43 UTC,Unix s,2025-09-16 20:36:43 UTC,Unix s
+CommitNewDocumentTitle,rahul_LOR_1,rahul_lor_1,1758126798,1758126798,1,2025-09-17 16:33:18 UTC,Unix s,2025-09-17 16:33:18 UTC,Unix s
+CommitNewDocumentTitle,Rahul_LOR2,rahul_lor2,1758127078,1758127078,1,2025-09-17 16:37:58 UTC,Unix s,2025-09-17 16:37:58 UTC,Unix s
+CommitNewDocumentTitle,bakeery_LOR_1,bakeery_lor_1,1758132106,1758132106,1,2025-09-17 18:01:46 UTC,Unix s,2025-09-17 18:01:46 UTC,Unix s
+CommitNewDocumentTitle,old_bakeery_LOR_1,old_bakeery_lor_1,1758133538,1758133538,1,2025-09-17 18:25:38 UTC,Unix s,2025-09-17 18:25:38 UTC,Unix s
+CommitNewDocumentTitle,abu-lor1,abu-lor1,1758133774,1758133774,1,2025-09-17 18:29:34 UTC,Unix s,2025-09-17 18:29:34 UTC,Unix s
+CommitNewDocumentTitle,abu-lo2,abu-lo2,1758133831,1758133831,1,2025-09-17 18:30:31 UTC,Unix s,2025-09-17 18:30:31 UTC,Unix s
+susi_email,cryfor419@gmail.com,cryfor419@gmail.com,1758236902,1758236902,1,2025-09-18 23:08:22 UTC,Unix s,2025-09-18 23:08:22 UTC,Unix s
+dnn$ctr937$View$textBoxExamNumber,557072738210,557072738210,1758237188,1758237200,2,2025-09-18 23:13:08 UTC,Unix s,2025-09-18 23:13:20 UTC,Unix s
+CommitNewDocumentTitle,Abubakar_Usman_Cover_letter,abubakar_usman_cover_letter,1758260779,1759145957,2,2025-09-19 05:46:19 UTC,Unix s,2025-09-29 11:39:17 UTC,Unix s
+search,computer,computer,1758401711,1758401729,2,2025-09-20 20:55:11 UTC,Unix s,2025-09-20 20:55:29 UTC,Unix s
+query,com,com,1758404221,1758404221,1,2025-09-20 21:37:01 UTC,Unix s,2025-09-20 21:37:01 UTC,Unix s
+CommitNewDocumentTitle,copy-to-rahul,copy-to-rahul,1759119012,1759119012,1,2025-09-29 04:10:12 UTC,Unix s,2025-09-29 04:10:12 UTC,Unix s
+CommitNewDocumentTitle,Abubakar_Usman_Motivation_Letter,abubakar_usman_motivation_letter,1759124091,1759124091,1,2025-09-29 05:34:51 UTC,Unix s,2025-09-29 05:34:51 UTC,Unix s
+CommitNewDocumentTitle,russia-open-doors-lom,russia-open-doors-lom,1759124587,1759124587,1,2025-09-29 05:43:07 UTC,Unix s,2025-09-29 05:43:07 UTC,Unix s
+CommitNewDocumentTitle,Abubakar_Usman_Statement_of_Purporse,abubakar_usman_statement_of_purporse,1759175223,1759175223,1,2025-09-29 19:47:03 UTC,Unix s,2025-09-29 19:47:03 UTC,Unix s
+single-line-text-form-component-profileEditFormElement-TOP-CARD-profile-ACoAAECfbs0BT1lXN0YVQOszS8XI4I6OeWjyM5I-firstName,Abubakar,abubakar,1759177719,1759177743,2,2025-09-29 20:28:39 UTC,Unix s,2025-09-29 20:29:03 UTC,Unix s
+single-line-text-form-component-profileEditFormElement-TOP-CARD-profile-ACoAAECfbs0BT1lXN0YVQOszS8XI4I6OeWjyM5I-lastName,Usman,usman,1759177719,1759177743,2,2025-09-29 20:28:39 UTC,Unix s,2025-09-29 20:29:03 UTC,Unix s
+single-typeahead-entity-form-component-profileEditFormElement-TOP-CARD-profile-ACoAAECfbs0BT1lXN0YVQOszS8XI4I6OeWjyM5I-industryId,Computer and Network Security,computer and network security,1759177719,1759177743,2,2025-09-29 20:28:39 UTC,Unix s,2025-09-29 20:29:03 UTC,Unix s
+single-typeahead-entity-form-component-profileEditFormElement-TOP-CARD-profile-ACoAAECfbs0BT1lXN0YVQOszS8XI4I6OeWjyM5I-geoLocation-countryField,India,india,1759177719,1759177743,2,2025-09-29 20:28:39 UTC,Unix s,2025-09-29 20:29:03 UTC,Unix s
+single-typeahead-entity-form-component-profileEditFormElement-TOP-CARD-profile-ACoAAECfbs0BT1lXN0YVQOszS8XI4I6OeWjyM5I-geoLocation-cityTypeaheadField,"Chennai, Tamil Nadu","chennai, tamil nadu",1759177719,1759177743,2,2025-09-29 20:28:39 UTC,Unix s,2025-09-29 20:29:03 UTC,Unix s
+single-line-text-form-component-profileEditFormElement-TOP-CARD-profile-ACoAAECfbs0BT1lXN0YVQOszS8XI4I6OeWjyM5I-creatorWebsite,https://bakeery-portfolio.vercel.app/,https://bakeery-portfolio.vercel.app/,1759177719,1759177743,2,2025-09-29 20:28:39 UTC,Unix s,2025-09-29 20:29:03 UTC,Unix s

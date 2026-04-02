@@ -1,0 +1,280 @@
+2026-04-02 15:25:54,184 [INFO] 
+Found 12 SQLite file(s) in: C:\Users\cryfo\OneDrive\Documents\Desktop\Browser
+2026-04-02 15:25:54,191 [INFO] 
+============================================================
+2026-04-02 15:25:54,193 [INFO]   DATABASE: Affiliation Database  [Credential Affiliations]
+2026-04-02 15:25:54,194 [INFO]   Size: 163,840 bytes
+2026-04-02 15:25:54,230 [INFO] ============================================================
+2026-04-02 15:25:54,240 [INFO]   Tables found: eq_class_groups, eq_class_members, eq_classes, meta, psl_extensions
+2026-04-02 15:25:54,244 [INFO]   → Exporting [eq_class_groups] (eq_class_groups)
+2026-04-02 15:25:54,285 [INFO]     ✓ 199 rows → eq_class_groups.csv
+2026-04-02 15:25:54,303 [INFO]   → Exporting [eq_class_members] (eq_class_members)
+2026-04-02 15:25:54,314 [INFO]     ✓ 160 rows → eq_class_members.csv
+2026-04-02 15:25:54,316 [INFO]   → Exporting [eq_classes] (eq_classes)
+2026-04-02 15:25:54,325 [INFO]     ✓ 44 rows → eq_classes.csv
+2026-04-02 15:25:54,327 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:25:54,330 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:25:54,331 [INFO]   → Exporting [psl_extensions] (psl_extensions)
+2026-04-02 15:25:54,364 [INFO]     ✓ 607 rows → psl_extensions.csv
+2026-04-02 15:25:54,376 [INFO] 
+============================================================
+2026-04-02 15:25:54,378 [INFO]   DATABASE: Conversions  [Ad Conversion Tracking]
+2026-04-02 15:25:54,380 [INFO]   Size: 491,520 bytes
+2026-04-02 15:25:54,384 [INFO] ============================================================
+2026-04-02 15:25:54,390 [INFO]   Tables found: aggregatable_debug_rate_limits, dedup_keys, meta, os_registrations, rate_limits, reports, source_destinations, sources
+2026-04-02 15:25:54,393 [INFO]   → Exporting [aggregatable_debug_rate_limits] (aggregatable_debug_rate_limits)
+2026-04-02 15:25:54,403 [INFO]     ✓ 0 rows → aggregatable_debug_rate_limits.csv
+2026-04-02 15:25:54,405 [INFO]   → Exporting [dedup_keys] (dedup_keys)
+2026-04-02 15:25:54,436 [INFO]     ✓ 0 rows → dedup_keys.csv
+2026-04-02 15:25:54,437 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:25:54,445 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:25:54,449 [INFO]   → Exporting [os_registrations] (os_registrations)
+2026-04-02 15:25:54,457 [INFO]     ✓ 0 rows → os_registrations.csv
+2026-04-02 15:25:54,458 [INFO]   → Exporting [rate_limits] (rate_limits)
+2026-04-02 15:25:54,527 [INFO]     ✓ 292 rows → rate_limits.csv
+2026-04-02 15:25:54,529 [INFO]   → Exporting [reports] (reports)
+2026-04-02 15:25:54,540 [INFO]     ✓ 0 rows → reports.csv
+2026-04-02 15:25:54,541 [INFO]   → Exporting [source_destinations] (source_destinations)
+2026-04-02 15:25:54,583 [INFO]     ✓ 216 rows → source_destinations.csv
+2026-04-02 15:25:54,586 [INFO]   → Exporting [sources] (sources)
+2026-04-02 15:25:54,695 [INFO]     ✓ 176 rows → sources.csv
+2026-04-02 15:25:54,697 [INFO] 
+============================================================
+2026-04-02 15:25:54,700 [INFO]   DATABASE: DIPS  [DIPS Privacy Bounce Tracker]
+2026-04-02 15:25:54,704 [INFO]   Size: 69,632 bytes
+2026-04-02 15:25:54,728 [INFO] ============================================================
+2026-04-02 15:25:54,737 [INFO]   Tables found: bounces, config, meta, popups
+2026-04-02 15:25:54,758 [INFO]   → Exporting [bounces] (bounces)
+2026-04-02 15:25:54,834 [INFO]     ✓ 260 rows → bounces.csv
+2026-04-02 15:25:54,835 [INFO]   → Exporting [config] (config)
+2026-04-02 15:25:54,846 [INFO]     ✓ 1 rows → config.csv
+2026-04-02 15:25:54,847 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:25:54,850 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:25:54,852 [INFO]   → Exporting [popups] (popups)
+2026-04-02 15:25:54,861 [INFO]     ✓ 21 rows → popups.csv
+2026-04-02 15:25:54,862 [INFO] 
+============================================================
+2026-04-02 15:25:54,865 [INFO]   DATABASE: Extension Cookies  [Extension Cookies]
+2026-04-02 15:25:54,876 [INFO]   Size: 20,480 bytes
+2026-04-02 15:25:54,881 [INFO] ============================================================
+2026-04-02 15:25:54,911 [INFO]   Tables found: cookies, meta
+2026-04-02 15:25:54,936 [INFO]   → Exporting [cookies] (Browser cookies (names, values, expiry))
+2026-04-02 15:25:54,946 [INFO]     ✓ 0 rows → cookies.csv
+2026-04-02 15:25:54,946 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:25:54,950 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:25:54,954 [INFO] 
+============================================================
+2026-04-02 15:25:54,955 [INFO]   DATABASE: Favicons  [Website Favicons]
+2026-04-02 15:25:54,960 [INFO]   Size: 4,128,768 bytes
+2026-04-02 15:25:54,961 [INFO] ============================================================
+2026-04-02 15:25:54,963 [INFO]   Tables found: favicon_bitmaps, favicons, icon_mapping, meta
+2026-04-02 15:25:54,970 [INFO]   → Exporting [favicon_bitmaps] (Favicon bitmap data)
+2026-04-02 15:25:55,085 [INFO]     ✓ 840 rows → favicon_bitmaps.csv
+2026-04-02 15:25:55,086 [INFO]   → Exporting [favicons] (Favicon image data (binary))
+2026-04-02 15:25:55,146 [INFO]     ✓ 420 rows → favicons.csv
+2026-04-02 15:25:55,150 [INFO]   → Exporting [icon_mapping] (URL to favicon mapping)
+2026-04-02 15:25:55,734 [INFO]     ✓ 4,856 rows → icon_mapping.csv
+2026-04-02 15:25:55,735 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:25:55,759 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:25:55,766 [INFO] 
+============================================================
+2026-04-02 15:25:55,772 [INFO]   DATABASE: History  [Browsing History & Downloads]
+2026-04-02 15:25:55,775 [INFO]   Size: 12,025,856 bytes
+2026-04-02 15:25:55,784 [INFO] ============================================================
+2026-04-02 15:25:55,802 [INFO]   Tables found: cluster_keywords, cluster_visit_duplicates, clusters, clusters_and_visits, content_annotations, context_annotations, downloads, downloads_slices, downloads_url_chains, history_sync_metadata, keyword_search_terms, meta, segment_usage, segments, urls, visit_source, visited_links, visits
+2026-04-02 15:25:55,805 [INFO]   → Exporting [cluster_keywords] (cluster_keywords)
+2026-04-02 15:25:55,917 [INFO]     ✓ 698 rows → cluster_keywords.csv
+2026-04-02 15:25:55,918 [INFO]   → Exporting [cluster_visit_duplicates] (cluster_visit_duplicates)
+2026-04-02 15:25:56,050 [INFO]     ✓ 3,292 rows → cluster_visit_duplicates.csv
+2026-04-02 15:25:56,052 [INFO]   → Exporting [clusters] (clusters)
+2026-04-02 15:25:56,266 [INFO]     ✓ 2,140 rows → clusters.csv
+2026-04-02 15:25:56,270 [INFO]   → Exporting [clusters_and_visits] (clusters_and_visits)
+2026-04-02 15:25:57,586 [INFO]     ✓ 7,269 rows → clusters_and_visits.csv
+2026-04-02 15:25:57,586 [INFO]   → Exporting [content_annotations] (content_annotations)
+2026-04-02 15:25:58,880 [INFO]     ✓ 9,562 rows → content_annotations.csv
+2026-04-02 15:25:58,880 [INFO]   → Exporting [context_annotations] (context_annotations)
+2026-04-02 15:25:59,996 [INFO]     ✓ 8,637 rows → context_annotations.csv
+2026-04-02 15:26:00,005 [INFO]   → Exporting [downloads] (Download history (files, sources, times))
+2026-04-02 15:26:00,148 [INFO]     ✓ 104 rows → downloads.csv
+2026-04-02 15:26:00,165 [INFO]   → Exporting [downloads_slices] (downloads_slices)
+2026-04-02 15:26:00,277 [INFO]     ✓ 0 rows → downloads_slices.csv
+2026-04-02 15:26:00,280 [INFO]   → Exporting [downloads_url_chains] (Download redirect chain URLs)
+2026-04-02 15:26:00,410 [INFO]     ✓ 146 rows → downloads_url_chains.csv
+2026-04-02 15:26:00,411 [INFO]   → Exporting [history_sync_metadata] (history_sync_metadata)
+2026-04-02 15:26:00,552 [INFO]     ✓ 0 rows → history_sync_metadata.csv
+2026-04-02 15:26:00,553 [INFO]   → Exporting [keyword_search_terms] (Search queries typed by user)
+2026-04-02 15:26:00,677 [INFO]     ✓ 1,369 rows → keyword_search_terms.csv
+2026-04-02 15:26:00,679 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:26:00,733 [INFO]     ✓ 4 rows → meta.csv
+2026-04-02 15:26:00,734 [INFO]   → Exporting [segment_usage] (segment_usage)
+2026-04-02 15:26:00,831 [INFO]     ✓ 252 rows → segment_usage.csv
+2026-04-02 15:26:00,831 [INFO]   → Exporting [segments] (URL path segments for omnibox)
+2026-04-02 15:26:00,890 [INFO]     ✓ 127 rows → segments.csv
+2026-04-02 15:26:00,894 [INFO]   → Exporting [urls] (All visited URLs with visit counts and titles)
+2026-04-02 15:26:01,879 [INFO]     ✓ 5,468 rows → urls.csv
+2026-04-02 15:26:01,884 [INFO]   → Exporting [visit_source] (Source of each visit (typed, link, etc.))
+2026-04-02 15:26:01,971 [INFO]     ✓ 0 rows → visit_source.csv
+2026-04-02 15:26:01,972 [INFO]   → Exporting [visited_links] (visited_links)
+2026-04-02 15:26:03,058 [INFO]     ✓ 6,689 rows → visited_links.csv
+2026-04-02 15:26:03,076 [INFO]   → Exporting [visits] (Individual page visit events with timestamps)
+2026-04-02 15:26:06,885 [INFO]     ✓ 9,778 rows → visits.csv
+2026-04-02 15:26:06,909 [INFO] 
+============================================================
+2026-04-02 15:26:06,937 [INFO]   DATABASE: Login Data  [Saved Passwords (Hashed)]
+2026-04-02 15:26:06,941 [INFO]   Size: 40,960 bytes
+2026-04-02 15:26:06,962 [INFO] ============================================================
+2026-04-02 15:26:06,992 [INFO]   Tables found: insecure_credentials, logins, meta, password_notes, stats, sync_entities_metadata, sync_model_metadata
+2026-04-02 15:26:06,995 [INFO]   → Exporting [insecure_credentials] (insecure_credentials)
+2026-04-02 15:26:06,999 [INFO]     ✓ 0 rows → insecure_credentials.csv
+2026-04-02 15:26:07,001 [INFO]   → Exporting [logins] (Saved login credentials (passwords encrypted))
+2026-04-02 15:26:07,008 [INFO]     ✓ 0 rows → logins.csv
+2026-04-02 15:26:07,009 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:26:07,014 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:26:07,021 [INFO]   → Exporting [password_notes] (password_notes)
+2026-04-02 15:26:07,034 [INFO]     ✓ 0 rows → password_notes.csv
+2026-04-02 15:26:07,038 [INFO]   → Exporting [stats] (stats)
+2026-04-02 15:26:07,044 [INFO]     ✓ 3 rows → stats.csv
+2026-04-02 15:26:07,045 [INFO]   → Exporting [sync_entities_metadata] (sync_entities_metadata)
+2026-04-02 15:26:07,060 [INFO]     ✓ 0 rows → sync_entities_metadata.csv
+2026-04-02 15:26:07,071 [INFO]   → Exporting [sync_model_metadata] (sync_model_metadata)
+2026-04-02 15:26:07,099 [INFO]     ✓ 0 rows → sync_model_metadata.csv
+2026-04-02 15:26:07,100 [INFO] 
+============================================================
+2026-04-02 15:26:07,105 [INFO]   DATABASE: Login Data For Account  [Signed-In Account Passwords (Hashed)]
+2026-04-02 15:26:07,112 [INFO]   Size: 77,824 bytes
+2026-04-02 15:26:07,113 [INFO] ============================================================
+2026-04-02 15:26:07,142 [INFO]   Tables found: insecure_credentials, logins, meta, password_notes, stats, sync_entities_metadata, sync_model_metadata
+2026-04-02 15:26:07,143 [INFO]   → Exporting [insecure_credentials] (insecure_credentials)
+2026-04-02 15:26:07,171 [INFO]     ✓ 0 rows → insecure_credentials.csv
+2026-04-02 15:26:07,214 [INFO]   → Exporting [logins] (Saved login credentials (passwords encrypted))
+2026-04-02 15:26:07,228 [INFO]     ✓ 45 rows → logins.csv
+2026-04-02 15:26:07,235 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:26:07,258 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:26:07,259 [INFO]   → Exporting [password_notes] (password_notes)
+2026-04-02 15:26:07,265 [INFO]     ✓ 0 rows → password_notes.csv
+2026-04-02 15:26:07,268 [INFO]   → Exporting [stats] (stats)
+2026-04-02 15:26:07,272 [INFO]     ✓ 0 rows → stats.csv
+2026-04-02 15:26:07,273 [INFO]   → Exporting [sync_entities_metadata] (sync_entities_metadata)
+2026-04-02 15:26:07,313 [INFO]     ✓ 45 rows → sync_entities_metadata.csv
+2026-04-02 15:26:07,314 [INFO]   → Exporting [sync_model_metadata] (sync_model_metadata)
+2026-04-02 15:26:07,351 [INFO]     ✓ 1 rows → sync_model_metadata.csv
+2026-04-02 15:26:07,359 [INFO] 
+============================================================
+2026-04-02 15:26:07,365 [INFO]   DATABASE: Network Action Predictor  [Omnibox Predictions]
+2026-04-02 15:26:07,391 [INFO]   Size: 917,504 bytes
+2026-04-02 15:26:07,398 [INFO] ============================================================
+2026-04-02 15:26:07,402 [INFO]   Tables found: lcp_critical_path_predictor, lcp_critical_path_predictor_initiator_origin, network_action_predictor, resource_prefetch_predictor_host_redirect, resource_prefetch_predictor_metadata, resource_prefetch_predictor_origin
+2026-04-02 15:26:07,407 [INFO]   → Exporting [lcp_critical_path_predictor] (lcp_critical_path_predictor)
+2026-04-02 15:26:07,425 [INFO]     ✓ 77 rows → lcp_critical_path_predictor.csv
+2026-04-02 15:26:07,426 [INFO]   → Exporting [lcp_critical_path_predictor_initiator_origin] (lcp_critical_path_predictor_initiator_origin)
+2026-04-02 15:26:07,455 [INFO]     ✓ 100 rows → lcp_critical_path_predictor_initiator_origin.csv
+2026-04-02 15:26:07,462 [INFO]   → Exporting [network_action_predictor] (network_action_predictor)
+2026-04-02 15:26:07,633 [INFO]     ✓ 246 rows → network_action_predictor.csv
+2026-04-02 15:26:07,639 [INFO]   → Exporting [resource_prefetch_predictor_host_redirect] (resource_prefetch_predictor_host_redirect)
+2026-04-02 15:26:07,652 [INFO]     ✓ 100 rows → resource_prefetch_predictor_host_redirect.csv
+2026-04-02 15:26:07,653 [INFO]   → Exporting [resource_prefetch_predictor_metadata] (resource_prefetch_predictor_metadata)
+2026-04-02 15:26:07,659 [INFO]     ✓ 1 rows → resource_prefetch_predictor_metadata.csv
+2026-04-02 15:26:07,661 [INFO]   → Exporting [resource_prefetch_predictor_origin] (resource_prefetch_predictor_origin)
+2026-04-02 15:26:07,671 [INFO]     ✓ 100 rows → resource_prefetch_predictor_origin.csv
+2026-04-02 15:26:07,674 [INFO] 
+============================================================
+2026-04-02 15:26:07,676 [INFO]   DATABASE: ServerCertificate  [ServerCertificate]
+2026-04-02 15:26:07,677 [INFO]   Size: 20,480 bytes
+2026-04-02 15:26:07,681 [INFO] ============================================================
+2026-04-02 15:26:07,687 [INFO]   Tables found: certificates, meta
+2026-04-02 15:26:07,694 [INFO]   → Exporting [certificates] (certificates)
+2026-04-02 15:26:07,702 [INFO]     ✓ 0 rows → certificates.csv
+2026-04-02 15:26:07,707 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:26:07,714 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:26:07,717 [INFO] 
+============================================================
+2026-04-02 15:26:07,718 [INFO]   DATABASE: Top Sites  [Most Visited Sites]
+2026-04-02 15:26:07,746 [INFO]   Size: 20,480 bytes
+2026-04-02 15:26:07,807 [INFO] ============================================================
+2026-04-02 15:26:07,813 [INFO]   Tables found: meta, top_sites
+2026-04-02 15:26:07,816 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:26:07,827 [INFO]     ✓ 3 rows → meta.csv
+2026-04-02 15:26:07,846 [INFO]   → Exporting [top_sites] (Top visited sites list)
+2026-04-02 15:26:07,868 [INFO]     ✓ 10 rows → top_sites.csv
+2026-04-02 15:26:07,874 [INFO] 
+============================================================
+2026-04-02 15:26:07,880 [INFO]   DATABASE: Web Data  [Autofill, Forms & Credit Cards]
+2026-04-02 15:26:07,881 [INFO]   Size: 196,608 bytes
+2026-04-02 15:26:07,883 [INFO] ============================================================
+2026-04-02 15:26:07,892 [INFO]   Tables found: address_type_tokens, addresses, autofill, autofill_ai_attributes, autofill_ai_entities, autofill_model_type_state, autofill_sync_metadata, benefit_merchant_domains, credit_cards, generic_payment_instruments, keywords, local_ibans, local_stored_cvc, masked_bank_accounts, masked_bank_accounts_metadata, masked_credit_card_benefits, masked_credit_cards, masked_ibans, masked_ibans_metadata, meta, offer_data, offer_eligible_instrument, offer_merchant_domain, payment_instrument_creation_options, payment_method_manifest, payments_customer_data, plus_address_sync_entity_metadata, plus_address_sync_model_type_state, plus_addresses, secure_payment_confirmation_browser_bound_key, secure_payment_confirmation_instrument, server_card_cloud_token_data, server_card_metadata, server_stored_cvc, token_service, virtual_card_usage_data, web_app_manifest_section
+2026-04-02 15:26:07,926 [INFO]   → Exporting [address_type_tokens] (address_type_tokens)
+2026-04-02 15:26:07,934 [INFO]     ✓ 0 rows → address_type_tokens.csv
+2026-04-02 15:26:07,935 [INFO]   → Exporting [addresses] (addresses)
+2026-04-02 15:26:07,939 [INFO]     ✓ 0 rows → addresses.csv
+2026-04-02 15:26:07,942 [INFO]   → Exporting [autofill] (Autofill form field values)
+2026-04-02 15:26:07,961 [INFO]     ✓ 179 rows → autofill.csv
+2026-04-02 15:26:07,972 [INFO]   → Exporting [autofill_ai_attributes] (autofill_ai_attributes)
+2026-04-02 15:26:07,977 [INFO]     ✓ 0 rows → autofill_ai_attributes.csv
+2026-04-02 15:26:07,979 [INFO]   → Exporting [autofill_ai_entities] (autofill_ai_entities)
+2026-04-02 15:26:07,985 [INFO]     ✓ 0 rows → autofill_ai_entities.csv
+2026-04-02 15:26:07,986 [INFO]   → Exporting [autofill_model_type_state] (autofill_model_type_state)
+2026-04-02 15:26:07,991 [INFO]     ✓ 1 rows → autofill_model_type_state.csv
+2026-04-02 15:26:07,993 [INFO]   → Exporting [autofill_sync_metadata] (autofill_sync_metadata)
+2026-04-02 15:26:07,997 [INFO]     ✓ 0 rows → autofill_sync_metadata.csv
+2026-04-02 15:26:07,998 [INFO]   → Exporting [benefit_merchant_domains] (benefit_merchant_domains)
+2026-04-02 15:26:08,004 [INFO]     ✓ 0 rows → benefit_merchant_domains.csv
+2026-04-02 15:26:08,010 [INFO]   → Exporting [credit_cards] (Saved credit card info (encrypted))
+2026-04-02 15:26:08,022 [INFO]     ✓ 0 rows → credit_cards.csv
+2026-04-02 15:26:08,032 [INFO]   → Exporting [generic_payment_instruments] (generic_payment_instruments)
+2026-04-02 15:26:08,035 [INFO]     ✓ 0 rows → generic_payment_instruments.csv
+2026-04-02 15:26:08,035 [INFO]   → Exporting [keywords] (Omnibox search engines)
+2026-04-02 15:26:08,048 [INFO]     ✓ 18 rows → keywords.csv
+2026-04-02 15:26:08,052 [INFO]   → Exporting [local_ibans] (local_ibans)
+2026-04-02 15:26:08,069 [INFO]     ✓ 0 rows → local_ibans.csv
+2026-04-02 15:26:08,071 [INFO]   → Exporting [local_stored_cvc] (local_stored_cvc)
+2026-04-02 15:26:08,095 [INFO]     ✓ 0 rows → local_stored_cvc.csv
+2026-04-02 15:26:08,098 [INFO]   → Exporting [masked_bank_accounts] (masked_bank_accounts)
+2026-04-02 15:26:08,106 [INFO]     ✓ 0 rows → masked_bank_accounts.csv
+2026-04-02 15:26:08,109 [INFO]   → Exporting [masked_bank_accounts_metadata] (masked_bank_accounts_metadata)
+2026-04-02 15:26:08,117 [INFO]     ✓ 0 rows → masked_bank_accounts_metadata.csv
+2026-04-02 15:26:08,163 [INFO]   → Exporting [masked_credit_card_benefits] (masked_credit_card_benefits)
+2026-04-02 15:26:08,174 [INFO]     ✓ 0 rows → masked_credit_card_benefits.csv
+2026-04-02 15:26:08,179 [INFO]   → Exporting [masked_credit_cards] (Google Pay card tokens)
+2026-04-02 15:26:08,225 [INFO]     ✓ 0 rows → masked_credit_cards.csv
+2026-04-02 15:26:08,240 [INFO]   → Exporting [masked_ibans] (masked_ibans)
+2026-04-02 15:26:08,262 [INFO]     ✓ 0 rows → masked_ibans.csv
+2026-04-02 15:26:08,262 [INFO]   → Exporting [masked_ibans_metadata] (masked_ibans_metadata)
+2026-04-02 15:26:08,303 [INFO]     ✓ 0 rows → masked_ibans_metadata.csv
+2026-04-02 15:26:08,326 [INFO]   → Exporting [meta] (meta)
+2026-04-02 15:26:08,337 [INFO]     ✓ 6 rows → meta.csv
+2026-04-02 15:26:08,342 [INFO]   → Exporting [offer_data] (offer_data)
+2026-04-02 15:26:08,395 [INFO]     ✓ 0 rows → offer_data.csv
+2026-04-02 15:26:08,396 [INFO]   → Exporting [offer_eligible_instrument] (offer_eligible_instrument)
+2026-04-02 15:26:08,406 [INFO]     ✓ 0 rows → offer_eligible_instrument.csv
+2026-04-02 15:26:08,412 [INFO]   → Exporting [offer_merchant_domain] (offer_merchant_domain)
+2026-04-02 15:26:08,434 [INFO]     ✓ 0 rows → offer_merchant_domain.csv
+2026-04-02 15:26:08,452 [INFO]   → Exporting [payment_instrument_creation_options] (payment_instrument_creation_options)
+2026-04-02 15:26:08,469 [INFO]     ✓ 0 rows → payment_instrument_creation_options.csv
+2026-04-02 15:26:08,470 [INFO]   → Exporting [payment_method_manifest] (payment_method_manifest)
+2026-04-02 15:26:08,476 [INFO]     ✓ 0 rows → payment_method_manifest.csv
+2026-04-02 15:26:08,491 [INFO]   → Exporting [payments_customer_data] (payments_customer_data)
+2026-04-02 15:26:08,501 [INFO]     ✓ 0 rows → payments_customer_data.csv
+2026-04-02 15:26:08,504 [INFO]   → Exporting [plus_address_sync_entity_metadata] (plus_address_sync_entity_metadata)
+2026-04-02 15:26:08,512 [INFO]     ✓ 0 rows → plus_address_sync_entity_metadata.csv
+2026-04-02 15:26:08,538 [INFO]   → Exporting [plus_address_sync_model_type_state] (plus_address_sync_model_type_state)
+2026-04-02 15:26:08,547 [INFO]     ✓ 0 rows → plus_address_sync_model_type_state.csv
+2026-04-02 15:26:08,549 [INFO]   → Exporting [plus_addresses] (plus_addresses)
+2026-04-02 15:26:08,555 [INFO]     ✓ 0 rows → plus_addresses.csv
+2026-04-02 15:26:08,561 [INFO]   → Exporting [secure_payment_confirmation_browser_bound_key] (secure_payment_confirmation_browser_bound_key)
+2026-04-02 15:26:08,566 [INFO]     ✓ 0 rows → secure_payment_confirmation_browser_bound_key.csv
+2026-04-02 15:26:08,575 [INFO]   → Exporting [secure_payment_confirmation_instrument] (secure_payment_confirmation_instrument)
+2026-04-02 15:26:08,585 [INFO]     ✓ 0 rows → secure_payment_confirmation_instrument.csv
+2026-04-02 15:26:08,586 [INFO]   → Exporting [server_card_cloud_token_data] (server_card_cloud_token_data)
+2026-04-02 15:26:08,590 [INFO]     ✓ 0 rows → server_card_cloud_token_data.csv
+2026-04-02 15:26:08,593 [INFO]   → Exporting [server_card_metadata] (server_card_metadata)
+2026-04-02 15:26:08,597 [INFO]     ✓ 0 rows → server_card_metadata.csv
+2026-04-02 15:26:08,599 [INFO]   → Exporting [server_stored_cvc] (server_stored_cvc)
+2026-04-02 15:26:08,601 [INFO]     ✓ 0 rows → server_stored_cvc.csv
+2026-04-02 15:26:08,607 [INFO]   → Exporting [token_service] (token_service)
+2026-04-02 15:26:08,615 [INFO]     ✓ 3 rows → token_service.csv
+2026-04-02 15:26:08,624 [INFO]   → Exporting [virtual_card_usage_data] (virtual_card_usage_data)
+2026-04-02 15:26:08,628 [INFO]     ✓ 0 rows → virtual_card_usage_data.csv
+2026-04-02 15:26:08,629 [INFO]   → Exporting [web_app_manifest_section] (web_app_manifest_section)
+2026-04-02 15:26:08,636 [INFO]     ✓ 0 rows → web_app_manifest_section.csv
+2026-04-02 15:26:08,645 [INFO] 
+Manifest written: bfx_export\_FORENSIC_MANIFEST.csv

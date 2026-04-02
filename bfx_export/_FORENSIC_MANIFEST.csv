@@ -1,0 +1,103 @@
+﻿source_db,table,description,rows_exported,csv_file
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Affiliation Database,eq_class_groups,eq_class_groups,199,bfx_export\Affiliation_Database\eq_class_groups.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Affiliation Database,eq_class_members,eq_class_members,160,bfx_export\Affiliation_Database\eq_class_members.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Affiliation Database,eq_classes,eq_classes,44,bfx_export\Affiliation_Database\eq_classes.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Affiliation Database,meta,meta,3,bfx_export\Affiliation_Database\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Affiliation Database,psl_extensions,psl_extensions,607,bfx_export\Affiliation_Database\psl_extensions.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,aggregatable_debug_rate_limits,aggregatable_debug_rate_limits,0,bfx_export\Conversions\aggregatable_debug_rate_limits.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,dedup_keys,dedup_keys,0,bfx_export\Conversions\dedup_keys.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,meta,meta,3,bfx_export\Conversions\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,os_registrations,os_registrations,0,bfx_export\Conversions\os_registrations.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,rate_limits,rate_limits,292,bfx_export\Conversions\rate_limits.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,reports,reports,0,bfx_export\Conversions\reports.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,source_destinations,source_destinations,216,bfx_export\Conversions\source_destinations.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions,sources,sources,176,bfx_export\Conversions\sources.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\DIPS,bounces,bounces,260,bfx_export\DIPS\bounces.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\DIPS,config,config,1,bfx_export\DIPS\config.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\DIPS,meta,meta,3,bfx_export\DIPS\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\DIPS,popups,popups,21,bfx_export\DIPS\popups.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Extension Cookies,cookies,"Browser cookies (names, values, expiry)",0,bfx_export\Extension_Cookies\cookies.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Extension Cookies,meta,meta,3,bfx_export\Extension_Cookies\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Favicons,favicon_bitmaps,Favicon bitmap data,840,bfx_export\Favicons\favicon_bitmaps.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Favicons,favicons,Favicon image data (binary),420,bfx_export\Favicons\favicons.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Favicons,icon_mapping,URL to favicon mapping,4856,bfx_export\Favicons\icon_mapping.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Favicons,meta,meta,3,bfx_export\Favicons\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,cluster_keywords,cluster_keywords,698,bfx_export\History\cluster_keywords.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,cluster_visit_duplicates,cluster_visit_duplicates,3292,bfx_export\History\cluster_visit_duplicates.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,clusters,clusters,2140,bfx_export\History\clusters.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,clusters_and_visits,clusters_and_visits,7269,bfx_export\History\clusters_and_visits.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,content_annotations,content_annotations,9562,bfx_export\History\content_annotations.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,context_annotations,context_annotations,8637,bfx_export\History\context_annotations.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,downloads,"Download history (files, sources, times)",104,bfx_export\History\downloads.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,downloads_slices,downloads_slices,0,bfx_export\History\downloads_slices.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,downloads_url_chains,Download redirect chain URLs,146,bfx_export\History\downloads_url_chains.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,history_sync_metadata,history_sync_metadata,0,bfx_export\History\history_sync_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,keyword_search_terms,Search queries typed by user,1369,bfx_export\History\keyword_search_terms.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,meta,meta,4,bfx_export\History\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,segment_usage,segment_usage,252,bfx_export\History\segment_usage.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,segments,URL path segments for omnibox,127,bfx_export\History\segments.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,urls,All visited URLs with visit counts and titles,5468,bfx_export\History\urls.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,visit_source,"Source of each visit (typed, link, etc.)",0,bfx_export\History\visit_source.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,visited_links,visited_links,6689,bfx_export\History\visited_links.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History,visits,Individual page visit events with timestamps,9778,bfx_export\History\visits.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,insecure_credentials,insecure_credentials,0,bfx_export\Login_Data\insecure_credentials.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,logins,Saved login credentials (passwords encrypted),0,bfx_export\Login_Data\logins.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,meta,meta,3,bfx_export\Login_Data\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,password_notes,password_notes,0,bfx_export\Login_Data\password_notes.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,stats,stats,3,bfx_export\Login_Data\stats.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,sync_entities_metadata,sync_entities_metadata,0,bfx_export\Login_Data\sync_entities_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data,sync_model_metadata,sync_model_metadata,0,bfx_export\Login_Data\sync_model_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,insecure_credentials,insecure_credentials,0,bfx_export\Login_Data_For_Account\insecure_credentials.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,logins,Saved login credentials (passwords encrypted),45,bfx_export\Login_Data_For_Account\logins.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,meta,meta,3,bfx_export\Login_Data_For_Account\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,password_notes,password_notes,0,bfx_export\Login_Data_For_Account\password_notes.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,stats,stats,0,bfx_export\Login_Data_For_Account\stats.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,sync_entities_metadata,sync_entities_metadata,45,bfx_export\Login_Data_For_Account\sync_entities_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account,sync_model_metadata,sync_model_metadata,1,bfx_export\Login_Data_For_Account\sync_model_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor,lcp_critical_path_predictor,lcp_critical_path_predictor,77,bfx_export\Network_Action_Predictor\lcp_critical_path_predictor.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor,lcp_critical_path_predictor_initiator_origin,lcp_critical_path_predictor_initiator_origin,100,bfx_export\Network_Action_Predictor\lcp_critical_path_predictor_initiator_origin.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor,network_action_predictor,network_action_predictor,246,bfx_export\Network_Action_Predictor\network_action_predictor.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor,resource_prefetch_predictor_host_redirect,resource_prefetch_predictor_host_redirect,100,bfx_export\Network_Action_Predictor\resource_prefetch_predictor_host_redirect.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor,resource_prefetch_predictor_metadata,resource_prefetch_predictor_metadata,1,bfx_export\Network_Action_Predictor\resource_prefetch_predictor_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor,resource_prefetch_predictor_origin,resource_prefetch_predictor_origin,100,bfx_export\Network_Action_Predictor\resource_prefetch_predictor_origin.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\ServerCertificate,certificates,certificates,0,bfx_export\ServerCertificate\certificates.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\ServerCertificate,meta,meta,3,bfx_export\ServerCertificate\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Top Sites,meta,meta,3,bfx_export\Top_Sites\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Top Sites,top_sites,Top visited sites list,10,bfx_export\Top_Sites\top_sites.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,address_type_tokens,address_type_tokens,0,bfx_export\Web_Data\address_type_tokens.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,addresses,addresses,0,bfx_export\Web_Data\addresses.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,autofill,Autofill form field values,179,bfx_export\Web_Data\autofill.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,autofill_ai_attributes,autofill_ai_attributes,0,bfx_export\Web_Data\autofill_ai_attributes.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,autofill_ai_entities,autofill_ai_entities,0,bfx_export\Web_Data\autofill_ai_entities.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,autofill_model_type_state,autofill_model_type_state,1,bfx_export\Web_Data\autofill_model_type_state.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,autofill_sync_metadata,autofill_sync_metadata,0,bfx_export\Web_Data\autofill_sync_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,benefit_merchant_domains,benefit_merchant_domains,0,bfx_export\Web_Data\benefit_merchant_domains.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,credit_cards,Saved credit card info (encrypted),0,bfx_export\Web_Data\credit_cards.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,generic_payment_instruments,generic_payment_instruments,0,bfx_export\Web_Data\generic_payment_instruments.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,keywords,Omnibox search engines,18,bfx_export\Web_Data\keywords.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,local_ibans,local_ibans,0,bfx_export\Web_Data\local_ibans.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,local_stored_cvc,local_stored_cvc,0,bfx_export\Web_Data\local_stored_cvc.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,masked_bank_accounts,masked_bank_accounts,0,bfx_export\Web_Data\masked_bank_accounts.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,masked_bank_accounts_metadata,masked_bank_accounts_metadata,0,bfx_export\Web_Data\masked_bank_accounts_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,masked_credit_card_benefits,masked_credit_card_benefits,0,bfx_export\Web_Data\masked_credit_card_benefits.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,masked_credit_cards,Google Pay card tokens,0,bfx_export\Web_Data\masked_credit_cards.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,masked_ibans,masked_ibans,0,bfx_export\Web_Data\masked_ibans.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,masked_ibans_metadata,masked_ibans_metadata,0,bfx_export\Web_Data\masked_ibans_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,meta,meta,6,bfx_export\Web_Data\meta.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,offer_data,offer_data,0,bfx_export\Web_Data\offer_data.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,offer_eligible_instrument,offer_eligible_instrument,0,bfx_export\Web_Data\offer_eligible_instrument.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,offer_merchant_domain,offer_merchant_domain,0,bfx_export\Web_Data\offer_merchant_domain.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,payment_instrument_creation_options,payment_instrument_creation_options,0,bfx_export\Web_Data\payment_instrument_creation_options.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,payment_method_manifest,payment_method_manifest,0,bfx_export\Web_Data\payment_method_manifest.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,payments_customer_data,payments_customer_data,0,bfx_export\Web_Data\payments_customer_data.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,plus_address_sync_entity_metadata,plus_address_sync_entity_metadata,0,bfx_export\Web_Data\plus_address_sync_entity_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,plus_address_sync_model_type_state,plus_address_sync_model_type_state,0,bfx_export\Web_Data\plus_address_sync_model_type_state.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,plus_addresses,plus_addresses,0,bfx_export\Web_Data\plus_addresses.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,secure_payment_confirmation_browser_bound_key,secure_payment_confirmation_browser_bound_key,0,bfx_export\Web_Data\secure_payment_confirmation_browser_bound_key.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,secure_payment_confirmation_instrument,secure_payment_confirmation_instrument,0,bfx_export\Web_Data\secure_payment_confirmation_instrument.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,server_card_cloud_token_data,server_card_cloud_token_data,0,bfx_export\Web_Data\server_card_cloud_token_data.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,server_card_metadata,server_card_metadata,0,bfx_export\Web_Data\server_card_metadata.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,server_stored_cvc,server_stored_cvc,0,bfx_export\Web_Data\server_stored_cvc.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,token_service,token_service,3,bfx_export\Web_Data\token_service.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,virtual_card_usage_data,virtual_card_usage_data,0,bfx_export\Web_Data\virtual_card_usage_data.csv
+C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data,web_app_manifest_section,web_app_manifest_section,0,bfx_export\Web_Data\web_app_manifest_section.csv

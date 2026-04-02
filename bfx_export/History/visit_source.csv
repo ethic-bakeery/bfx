@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History
+# DB Description,Browsing History & Downloads
+# Table,visit_source
+# Table Description,"Source of each visit (typed, link, etc.)"
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:56:01 UTC
+# MD5 Hash of Source DB,51e141f58bb3628ad263c1aeb53c797a
+
+id,source,source__DOMAIN,source__CATEGORY

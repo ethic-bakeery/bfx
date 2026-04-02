@@ -1,0 +1,13 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Favicons
+# DB Description,Website Favicons
+# Table,meta
+# Table Description,meta
+# Total Rows in DB,3
+# Export Timestamp,2026-04-02 09:55:55 UTC
+# MD5 Hash of Source DB,e3c84f207494d7fa0eb9a69bade06c04
+
+key,value
+mmap_status,-1
+version,9
+last_compatible_version,9

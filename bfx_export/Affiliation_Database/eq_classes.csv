@@ -1,0 +1,54 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Affiliation Database
+# DB Description,Credential Affiliations
+# Table,eq_classes
+# Table Description,eq_classes
+# Total Rows in DB,44
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,98f842308ecd3f8294f4be9e56674791
+
+id,last_update_time,group_display_name,group_icon_url,last_update_time__HUMAN,last_update_time__FORMAT,group_icon_url__DOMAIN,group_icon_url__CATEGORY
+1072,13403717491130336,dropbox.com,"https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.dropbox.com&client=PASSWORD_MANAGER&size=16&type=FAVICON&fallback_opts=TYPE,SIZE,URL,TOP_DOMAIN&nfrp=3",2025-09-30 14:51:31 UTC,WebKit (Chrome),encrypted-tbn2.gstatic.com,HTTPS
+1073,13403717491143700,linkedin.com,"https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=PASSWORD_MANAGER&size=16&type=FAVICON&fallback_opts=TYPE,SIZE,URL,TOP_DOMAIN&nfrp=3",2025-09-30 14:51:31 UTC,WebKit (Chrome),encrypted-tbn2.gstatic.com,HTTPS
+1074,13403717491161888,login.microsoftonline.com,"https://encrypted-tbn0.gstatic.com/faviconV2?url=https://login.microsoftonline.com&client=PASSWORD_MANAGER&size=16&type=FAVICON&fallback_opts=TYPE,SIZE,URL,TOP_DOMAIN&nfrp=3",2025-09-30 14:51:31 UTC,WebKit (Chrome),encrypted-tbn0.gstatic.com,HTTPS
+1075,13403717491171362,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1076,13403717491186281,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1077,13403717491212944,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1078,13403717491227032,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1079,13403717491244709,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1080,13403717491256755,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1081,13403717491269093,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1082,13403717491285681,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1083,13403717491296628,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1084,13403717491305041,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1085,13403717491313458,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1086,13403717491321820,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1087,13403717491330186,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1088,13403717491338287,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1089,13403717491357661,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1090,13403717491376956,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1091,13403717491396409,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1092,13403717491422827,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1093,13403717491448135,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1094,13403717491472910,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1095,13403717491495326,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1096,13403717491510327,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1097,13403717491530539,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1098,13403717491542639,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1099,13403717491555456,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1100,13403717491567086,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1101,13403717491579466,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1102,13403717491591753,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1103,13403717491599676,github.com,"https://encrypted-tbn2.gstatic.com/faviconV2?url=https://github.com&client=PASSWORD_MANAGER&size=16&type=FAVICON&fallback_opts=TYPE,SIZE,URL,TOP_DOMAIN&nfrp=3",2025-09-30 14:51:31 UTC,WebKit (Chrome),encrypted-tbn2.gstatic.com,HTTPS
+1104,13403717491610716,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1105,13403717491629591,miro.com,"https://encrypted-tbn3.gstatic.com/faviconV2?url=https://miro.com&client=PASSWORD_MANAGER&size=16&type=FAVICON&fallback_opts=TYPE,SIZE,URL,TOP_DOMAIN&nfrp=3",2025-09-30 14:51:31 UTC,WebKit (Chrome),encrypted-tbn3.gstatic.com,HTTPS
+1106,13403717491643902,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1107,13403717491661587,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1108,13403717491674322,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1109,13403717491685982,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1110,13403717491698381,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1111,13403717491712213,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1112,13403717491724081,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1113,13403717491732753,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1114,13403717491748754,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,
+1115,13403717491764584,,,2025-09-30 14:51:31 UTC,WebKit (Chrome),,

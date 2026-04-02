@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Extension Cookies
+# DB Description,Extension Cookies
+# Table,cookies
+# Table Description,"Browser cookies (names, values, expiry)"
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,40c4021f7a23fc1b361904d0519eb714
+
+creation_utc,host_key,top_frame_site_key,name,value,encrypted_value,path,expires_utc,is_secure,is_httponly,last_access_utc,has_expires,is_persistent,priority,samesite,source_scheme,source_port,last_update_utc,source_type,has_cross_site_ancestor,expires_utc__HUMAN,expires_utc__FORMAT,last_access_utc__HUMAN,last_access_utc__FORMAT,has_expires__HUMAN,has_expires__FORMAT,last_update_utc__HUMAN,last_update_utc__FORMAT,host_key__DOMAIN,host_key__CATEGORY,source_scheme__DOMAIN,source_scheme__CATEGORY,source_port__DOMAIN,source_port__CATEGORY,source_type__DOMAIN,source_type__CATEGORY

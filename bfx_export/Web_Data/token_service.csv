@@ -1,0 +1,13 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data
+# DB Description,"Autofill, Forms & Credit Cards"
+# Table,token_service
+# Table Description,token_service
+# Total Rows in DB,3
+# Export Timestamp,2026-04-02 09:56:08 UTC
+# MD5 Hash of Source DB,18dd63a1b36a3f929c9a6e4e99a53362
+
+service,encrypted_token,binding_key
+AccountId-105812742121362569947,<BLOB 134 bytes: 763230d84cec6d4d43470c92a2460d3b4edf6c48ac81e430a0dcfe33e8caf2d7...>,<BLOB: >
+AccountId-103298556594093510921,<BLOB 134 bytes: 7632307614755b1d4d3e8acc2ee977c82a8a38d5ccfccc1ec0d5c1df56bba00a...>,<BLOB: >
+AccountId-112634220580565592778,<BLOB 134 bytes: 7632301f6d40d039b8c247423a5e603062a5cb54f56cb42fb5306c5d1d4c9dd4...>,<BLOB: >

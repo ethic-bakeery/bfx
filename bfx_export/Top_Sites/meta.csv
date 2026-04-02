@@ -1,0 +1,13 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Top Sites
+# DB Description,Most Visited Sites
+# Table,meta
+# Table Description,meta
+# Total Rows in DB,3
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,479eb85da157204467fa9a6c3bc8899c
+
+key,value
+mmap_status,-1
+version,5
+last_compatible_version,5

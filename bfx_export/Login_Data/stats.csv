@@ -1,0 +1,13 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data
+# DB Description,Saved Passwords (Hashed)
+# Table,stats
+# Table Description,stats
+# Total Rows in DB,3
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,a5b57ad8859f242c35ddbb8ae79302ed
+
+origin_domain,username_value,dismissal_count,update_time,update_time__HUMAN,update_time__FORMAT,origin_domain__DOMAIN,origin_domain__CATEGORY
+https://account.box.com/,nngalliance@gmail.com,1,13399650264080307,2025-08-14 13:04:24 UTC,WebKit (Chrome),account.box.com,HTTPS
+https://preview-user-i-am-trying-to-deploy-a-nextj-kzmljr2nj2bv23lnngbb.vusercontent.net/,bakeery@gmail.com,1,13399916744209551,2025-08-17 15:05:44 UTC,WebKit (Chrome),preview-user-i-am-trying-to-deploy-a-nextj-kzmljr2nj2bv23lnngbb.vusercontent.net,HTTPS
+https://future.mcgill.ca/,,1,13402876368297915,2025-09-20 21:12:48 UTC,WebKit (Chrome),future.mcgill.ca,HTTPS

@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Web Data
+# DB Description,"Autofill, Forms & Credit Cards"
+# Table,addresses
+# Table Description,addresses
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,18dd63a1b36a3f929c9a6e4e99a53362
+
+guid,use_count,use_date,date_modified,language_code,label,initial_creator_id,last_modifier_id,use_date2,use_date3,record_type,use_date__HUMAN,use_date__FORMAT,date_modified__HUMAN,date_modified__FORMAT,last_modifier_id__HUMAN,last_modifier_id__FORMAT,use_date2__HUMAN,use_date2__FORMAT,use_date3__HUMAN,use_date3__FORMAT

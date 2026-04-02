@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data
+# DB Description,Saved Passwords (Hashed)
+# Table,sync_model_metadata
+# Table Description,sync_model_metadata
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,a5b57ad8859f242c35ddbb8ae79302ed
+
+id,model_metadata

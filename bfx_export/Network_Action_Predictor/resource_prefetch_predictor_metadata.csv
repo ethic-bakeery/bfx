@@ -1,0 +1,11 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Network Action Predictor
+# DB Description,Omnibox Predictions
+# Table,resource_prefetch_predictor_metadata
+# Table Description,resource_prefetch_predictor_metadata
+# Total Rows in DB,1
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,ee814f1faae1df7d51f663aaad1eb2c2
+
+key,value
+version,11

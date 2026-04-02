@@ -1,0 +1,20 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Top Sites
+# DB Description,Most Visited Sites
+# Table,top_sites
+# Table Description,Top visited sites list
+# Total Rows in DB,10
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,479eb85da157204467fa9a6c3bc8899c
+
+url,url_rank,title,url__DOMAIN,url__CATEGORY,url_rank__DOMAIN,url_rank__CATEGORY
+https://chatgpt.com/,0,ChatGPT,chatgpt.com,HTTPS,0,Other
+https://chat.deepseek.com/,2,DeepSeek - Into the Unknown,chat.deepseek.com,HTTPS,2,Other
+https://resumeworded.com/,4,Resume Worded - Free instant feedback on your resume and LinkedIn profile,resumeworded.com,HTTPS,4,Other
+https://www.notion.so/,1,Notion,www.notion.so,HTTPS,1,Other
+https://github.com/ethic-bakeery/anomix,6,GitHub - ethic-bakeery/anomix,github.com,HTTPS,6,Other
+https://youtube.com/,8,YouTube,youtube.com,HTTPS,8,Other
+https://github.com/ethic-bakeery/Portfolio,7,ethic-bakeery/Portfolio,github.com,HTTPS,7,Other
+https://word.cloud.microsoft/,5,Word for the Web - Microsoft 365,word.cloud.microsoft,HTTPS,5,Other
+https://od.globaluni.ru/lk/statement,9,Motivation Letter - Opendoors,od.globaluni.ru,HTTPS,9,Other
+https://bakeery-portfolio.vercel.app/,3,Bakeery | Security Analyst,bakeery-portfolio.vercel.app,HTTPS,3,Other

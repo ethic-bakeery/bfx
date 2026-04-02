@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data
+# DB Description,Saved Passwords (Hashed)
+# Table,logins
+# Table Description,Saved login credentials (passwords encrypted)
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,a5b57ad8859f242c35ddbb8ae79302ed
+
+origin_url,action_url,username_element,username_value,password_element,password_value,submit_element,signon_realm,date_created,blacklisted_by_user,scheme,password_type,times_used,form_data,display_name,icon_url,federation_url,skip_zero_click,generation_upload_status,possible_username_pairs,id,date_last_used,moving_blocked_for,date_password_modified,sender_email,sender_name,date_received,sharing_notification_displayed,keychain_identifier,sender_profile_image_url,date_last_filled,date_created__HUMAN,date_created__FORMAT,times_used__HUMAN,times_used__FORMAT,date_last_used__HUMAN,date_last_used__FORMAT,date_password_modified__HUMAN,date_password_modified__FORMAT,sender_email__HUMAN,sender_email__FORMAT,sender_name__HUMAN,sender_name__FORMAT,date_received__HUMAN,date_received__FORMAT,sender_profile_image_url__HUMAN,sender_profile_image_url__FORMAT,date_last_filled__HUMAN,date_last_filled__FORMAT,origin_url__DOMAIN,origin_url__CATEGORY,action_url__DOMAIN,action_url__CATEGORY,icon_url__DOMAIN,icon_url__CATEGORY,federation_url__DOMAIN,federation_url__CATEGORY,sender_profile_image_url__DOMAIN,sender_profile_image_url__CATEGORY

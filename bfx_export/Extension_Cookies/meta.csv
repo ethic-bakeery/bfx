@@ -1,0 +1,13 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Extension Cookies
+# DB Description,Extension Cookies
+# Table,meta
+# Table Description,meta
+# Total Rows in DB,3
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,40c4021f7a23fc1b361904d0519eb714
+
+key,value
+mmap_status,-1
+version,24
+last_compatible_version,24

@@ -1,0 +1,13 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\DIPS
+# DB Description,DIPS Privacy Bounce Tracker
+# Table,meta
+# Table Description,meta
+# Total Rows in DB,3
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,258bad98485ff3b2d976702089619d40
+
+key,value
+mmap_status,-1
+version,9
+last_compatible_version,9

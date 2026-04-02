@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bfx"
+version = "1.0.0"
+description = "Browser Forensic Explorer — professional CLI for browser artifact analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+  { name = "BFX Project" }
+]
+
+keywords = [
+  "forensics",
+  "browser",
+  "chrome",
+  "sqlite",
+  "dfir",
+  "digital-forensics",
+  "incident-response",
+  "cli"
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security",
+  "Topic :: System :: Logging",
+  "Topic :: Utilities"
+]
+
+dependencies = []
+
+[project.scripts]
+bfx = "bfx.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bfx*"]

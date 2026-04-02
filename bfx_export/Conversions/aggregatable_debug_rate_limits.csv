@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions
+# DB Description,Ad Conversion Tracking
+# Table,aggregatable_debug_rate_limits
+# Table Description,aggregatable_debug_rate_limits
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,bd0c53f3d38d2d92dfea12527798225b
+
+id,context_site,reporting_origin,reporting_site,time,consumed_budget,time__HUMAN,time__FORMAT,reporting_origin__DOMAIN,reporting_origin__CATEGORY

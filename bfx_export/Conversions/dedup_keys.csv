@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Conversions
+# DB Description,Ad Conversion Tracking
+# Table,dedup_keys
+# Table Description,dedup_keys
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,bd0c53f3d38d2d92dfea12527798225b
+
+source_id,report_type,dedup_key,source_id__DOMAIN,source_id__CATEGORY

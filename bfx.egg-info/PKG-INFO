@@ -1,0 +1,231 @@
+Metadata-Version: 2.4
+Name: bfx
+Version: 1.0.0
+Summary: Browser Forensic Explorer — professional CLI for browser artifact analysis
+Author: BFX Project
+License: MIT
+Keywords: forensics,browser,chrome,sqlite,dfir,digital-forensics,incident-response,cli
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# bfx — Browser Forensic Explorer
+
+Professional command-line tool for reading and analysing browser forensic
+exports. Works on Windows, macOS, and Linux. Zero external dependencies —
+pure Python 3.8+.
+
+---
+
+## Install
+
+    cd bfx
+    pip install -e .
+
+After installing, the bfx command is available everywhere in your terminal.
+
+---
+
+## Workflow — two steps
+
+### Step 1 — Export your browser databases
+
+Point bfx at the browser folder and it extracts everything to CSV:
+
+    bfx export --folder "C:\Users\cryfo\Desktop\Browser" --output .\exports
+
+Other examples:
+
+    # Chrome profile folder
+    bfx export --folder "C:\Users\cryfo\AppData\Local\Google\Chrome\User Data\Default" --output .\exports
+
+    # Single database file
+    bfx export --file "C:\Users\cryfo\Desktop\Browser\History" --output .\exports
+
+    # Preview — only first 500 rows per table
+    bfx export --folder .\Browser --limit 500 --output .\preview
+
+### Step 2 — Explore the export
+
+All commands use --session to point at the folder created in Step 1.
+
+---
+
+## Commands and examples
+
+### list — see all available tables
+
+    bfx --session .\exports list
+
+Example output:
+
+    Session Tables  (53 loaded, 12 skipped)
+
+    Browsing History & Downloads
+      ├─ cluster-keywords           698 rows   5 cols
+      ├─ downloads                  410 rows  28 cols  Download history
+      ├─ keyword-search-terms       201 rows   4 cols  Search queries typed by user
+      ├─ urls                      9142 rows  11 cols  All visited URLs
+      └─ visits                    9778 rows   8 cols  Individual page visit events
+
+    Saved Passwords (Hashed)
+      └─ logins                      45 rows  10 cols  Saved login credentials
+
+    Skipped (empty) tables written to: skipped_tables.txt
+
+The name on the left of each line (e.g. urls, logins, downloads) is the
+alias you use in all other commands.
+
+---
+
+### head / tail — quick look at first or last rows
+
+    bfx --session .\exports head downloads --rows 20
+    bfx --session .\exports tail visits --rows 10
+    bfx --session .\exports head keyword-search-terms --rows 50
+    bfx --session .\exports head urls --rows 5
+
+---
+
+### view — browse full table with pagination
+
+    bfx --session .\exports view urls
+
+Navigation: SPACE=next page, B=previous, Q=quit.
+
+    # First 100 rows only
+    bfx --session .\exports view urls --rows 100
+
+    # Export table to CSV
+    bfx --session .\exports view logins --export logins_review.csv
+
+    # Output as JSON (pipeable)
+    bfx --session .\exports view urls --json
+
+---
+
+### search — find a keyword across ALL tables at once
+
+    bfx --session .\exports search "lazarus"
+
+Shows every table that contains the word, with matching rows highlighted.
+
+    # Narrow to one table
+    bfx --session .\exports search "github" --table logins
+
+    # Search within one column only
+    bfx --session .\exports search "pdf" --col mime_type
+
+    # Save all hits to a file
+    bfx --session .\exports search "lazarus" --export lazarus_hits.csv
+
+    # JSON output
+    bfx --session .\exports search "gmail" --json
+
+---
+
+### filter — filter a table by column value
+
+    # Only HTTPS URLs
+    bfx --session .\exports filter urls --col url__CATEGORY --value HTTPS
+
+    # Only dangerous downloads
+    bfx --session .\exports filter downloads --col danger_type --value "^[^0]" --regex
+
+    # Multiple conditions (AND logic)
+    bfx --session .\exports filter downloads --col mime_type   --value zip \
+                                             --col tab_url__CATEGORY --value HTTP
+
+    # Save filtered result
+    bfx --session .\exports filter urls --col url__CATEGORY --value HTTPS \
+                                        --export https_only.csv
+
+---
+
+### schema — inspect column names and sample values
+
+    bfx --session .\exports schema visits
+    bfx --session .\exports schema logins --samples 10
+
+Shows every column, whether it is original or enriched by bfx, and the
+top N sample values in that column.
+
+---
+
+### info — forensic metadata for a table
+
+    bfx --session .\exports info logins
+    bfx --session .\exports info downloads
+
+Shows: source database path, MD5 hash, export timestamp, column list.
+
+---
+
+### summary — session overview
+
+    bfx --session .\exports summary
+
+Shows: all tables with row counts, activity date range, top 10 visited
+domains, top 10 search queries, download statistics.
+
+---
+
+## Enrichment columns explained
+
+bfx automatically adds helper columns alongside timestamp and URL columns:
+
+    Original column      Added columns                  Example value
+    ─────────────────    ─────────────────────────────  ─────────────────────────────
+    last_visit_time      last_visit_time__HUMAN         2023-10-11 18:18:44 UTC
+                         last_visit_time__FORMAT        WebKit (Chrome)
+    url                  url__DOMAIN                    google.com
+                         url__CATEGORY                  HTTPS
+
+In card view these appear indented under the raw value:
+
+    tab_url      https://malware-site.ru/payload.zip
+                     -> malware-site.ru | HTTP
+    start_time   13341800000000000
+                     -> 2023-10-14 09:00:00 UTC | (WebKit (Chrome))
+
+---
+
+## Disable colour
+
+    bfx --no-color --session .\exports list
+
+Or permanently:
+
+    set NO_COLOR=1          (Windows CMD)
+    $env:NO_COLOR=1         (PowerShell)
+    export NO_COLOR=1       (Linux / Mac)
+
+---
+
+## Full help
+
+    bfx --help
+    bfx export  --help
+    bfx list    --help
+    bfx view    --help
+    bfx head    --help
+    bfx tail    --help
+    bfx search  --help
+    bfx filter  --help
+    bfx schema  --help
+    bfx info    --help
+    bfx summary --help

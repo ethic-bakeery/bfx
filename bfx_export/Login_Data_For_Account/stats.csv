@@ -1,0 +1,10 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\Login Data For Account
+# DB Description,Signed-In Account Passwords (Hashed)
+# Table,stats
+# Table Description,stats
+# Total Rows in DB,0
+# Export Timestamp,2026-04-02 09:56:07 UTC
+# MD5 Hash of Source DB,57648b0cfa65006fc1bc0980af0da250
+
+origin_domain,username_value,dismissal_count,update_time,update_time__HUMAN,update_time__FORMAT,origin_domain__DOMAIN,origin_domain__CATEGORY

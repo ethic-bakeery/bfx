@@ -1,0 +1,14 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\History
+# DB Description,Browsing History & Downloads
+# Table,meta
+# Table Description,meta
+# Total Rows in DB,4
+# Export Timestamp,2026-04-02 09:56:00 UTC
+# MD5 Hash of Source DB,51e141f58bb3628ad263c1aeb53c797a
+
+key,value
+mmap_status,-1
+version,70
+last_compatible_version,16
+early_expiration_threshold,13396214904504036

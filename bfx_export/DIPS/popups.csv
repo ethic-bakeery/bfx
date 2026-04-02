@@ -1,0 +1,31 @@
+﻿# BROWSER FORENSIC EXPORT
+# Source DB,C:\Users\cryfo\OneDrive\Documents\Desktop\Browser\DIPS
+# DB Description,DIPS Privacy Bounce Tracker
+# Table,popups
+# Table Description,popups
+# Total Rows in DB,21
+# Export Timestamp,2026-04-02 09:55:54 UTC
+# MD5 Hash of Source DB,258bad98485ff3b2d976702089619d40
+
+opener_site,popup_site,access_id,last_popup_time,is_current_interaction,is_authentication_interaction,last_popup_time__HUMAN,last_popup_time__FORMAT
+reddit.com,google.com,-2416922125328893722,13401432925236568,1,0,2025-09-04 04:15:25 UTC,WebKit (Chrome)
+reddit.com,reddit.com,-386836854425508093,13401440885873704,0,0,2025-09-04 06:28:05 UTC,WebKit (Chrome)
+oneforma.com,oneforma.com,-1198077233465360691,13401559572622907,1,0,2025-09-05 15:26:12 UTC,WebKit (Chrome)
+myworkdayjobs.com,linkedin.com,-3433902882975779994,13401900229168885,0,0,2025-09-09 14:03:49 UTC,WebKit (Chrome)
+vercel.com,vercel.com,-2087524552536188001,13402496585015278,0,0,2025-09-16 11:43:05 UTC,WebKit (Chrome)
+vercel.com,github.com,-3105588406660385692,13402496587046320,1,0,2025-09-16 11:43:07 UTC,WebKit (Chrome)
+live.com,live.com,-5484719143696022280,13402607405796235,1,0,2025-09-17 18:30:05 UTC,WebKit (Chrome)
+waecdirect.org,waecdirect.org,2900442691011422970,13402711226763730,1,0,2025-09-18 23:20:26 UTC,WebKit (Chrome)
+tryhackme.com,tryhackme.com,1109181481383804234,13402724456450290,1,0,2025-09-19 03:00:56 UTC,WebKit (Chrome)
+cloud.microsoft,live.com,-5381181200113970083,13402729824982683,1,0,2025-09-19 04:30:24 UTC,WebKit (Chrome)
+pinterest.com,pinterest.com,-5014182768500577412,13402732526418636,0,0,2025-09-19 05:15:26 UTC,WebKit (Chrome)
+pinterest.com,nationalgriefawarenessday.com,2381596219241728710,13402732529661309,1,0,2025-09-19 05:15:29 UTC,WebKit (Chrome)
+egnyte.com,egnyte.com,-7016767191210561157,13402881612772990,0,0,2025-09-20 22:40:12 UTC,WebKit (Chrome)
+linkedin.com,jpmorganchase.com,4473639369044242256,13402950837654171,1,0,2025-09-21 17:53:57 UTC,WebKit (Chrome)
+linkedin.com,t.me,-2237854846257006636,13402952978578368,1,0,2025-09-21 18:29:38 UTC,WebKit (Chrome)
+youtube.com,youtube.com,-5814932262526697386,13403126252949073,0,0,2025-09-23 18:37:32 UTC,WebKit (Chrome)
+youtube.com,google.com,6534624117329618444,13403126266453121,1,0,2025-09-23 18:37:46 UTC,WebKit (Chrome)
+cisco.com,github.com,5918132506795475164,13403366276049111,1,0,2025-09-26 13:17:56 UTC,WebKit (Chrome)
+cisco.com,cisco.com,1055685298556967582,13403381363649219,1,0,2025-09-26 17:29:23 UTC,WebKit (Chrome)
+192.168.186.128,cisco.com,1931061235066177923,13403387080506721,0,0,2025-09-26 19:04:40 UTC,WebKit (Chrome)
+postman.com,getpostman.com,3482610637070535124,13403387300381418,1,0,2025-09-26 19:08:20 UTC,WebKit (Chrome)
