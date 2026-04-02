@@ -6,18 +6,21 @@
 
 ## 📹 Video Demo
 
-<!-- Add your demo video here -->
-> **[Watch the demo on YouTube](#)** ← replace this link once you upload your recording
+> **[Watch the demo on YouTube](https://youtu.be/-YhErNtPzFs)**
 
 ---
 
 ## Why I Built This
 
-During a forensic investigation I was working on — analysing browser activity as part of a case study on the Lazarus Group's Bybit crypto heist — I had to dig through raw browser databases. Chrome keeps everything in SQLite files: your full browsing history, every search you typed, every file you downloaded, every password you saved. It's all there, sitting in plain files on disk.
+During a forensic investigation I was working on analysing browser activity as part of a case study on the Lazarus Group's Bybit crypto heist I had to dig through raw browser databases. Chrome keeps everything in SQLite files: your full browsing history, every search you typed, every file you downloaded, every password you saved. It's all there, sitting in plain files on disk.
 
-The problem? Opening those files is painful. You either import them into a spreadsheet tool and struggle with timestamps that look like `13341521924000000` (that's a real Chrome timestamp, by the way — it means 2023-10-12 16:00:00 UTC), or you write SQL queries manually for every single question you want to answer. And if you're doing this in a professional context — SOC analysis, incident response, a forensic investigation — you end up doing the same repetitive work every single time.
+I originally created [ethic-bakeery/sqlite-forensic-exporter](https://github.com/ethic-bakeery/sqlite-forensic-exporter) to help get data out of browser databases. It worked, but there was a catch: you still had to open every CSV file manually and hunt for what you needed one by one. In the middle of a real investigation, that’s just too slow.
 
-So I built bfx. It's a tool I wished existed. You point it at a browser folder, it extracts everything, converts all the timestamps into readable dates, labels all the URLs, and then gives you a clean command-line interface to explore it all — search across every table at once, filter by column, see the first or last rows, get a full session summary in seconds. No spreadsheet juggling, no SQL, no decoding timestamps by hand.
+**bfx** is the next step in that journey. I’ve rebuilt the engine and added a command-line interface so you can find your evidence without ever leaving the terminal. Instead of clicking through folders and spreadsheets, you get instant, searchable answers. It’s built to move as fast as the investigation does.
+
+The problem? Opening those files is painful. You either import them into a spreadsheet tool and struggle with timestamps that look like `13341521924000000` (that's a real Chrome timestamp, by the way it means 2023-10-12 16:00:00 UTC), or you write SQL queries manually for every single question you want to answer. And if you're doing this in a professional context SOC analysis, incident response, a forensic investigation you end up doing the same repetitive work every single time.
+
+So I built bfx. It's a tool I wished existed. You point it at a browser folder, it extracts everything, converts all the timestamps into readable dates, labels all the URLs, and then gives you a clean command-line interface to explore it all search across every table at once, filter by column, see the first or last rows, get a full session summary in seconds. No spreadsheet juggling, no SQL, no decoding timestamps by hand.
 
 I built it as a learning project and a practical tool. If it helps other analysts, investigators, or students doing the same kind of work, that's what matters.
 
@@ -27,13 +30,13 @@ I built it as a learning project and a practical tool. If it helps other analyst
 
 Your browser is constantly writing data to SQLite database files on your computer. Chrome alone keeps:
 
-- **History** — every URL you visited, when you visited it, how many times
-- **Downloads** — every file you downloaded, where it came from, where it went
-- **Searches** — every query you typed into the address bar
-- **Login Data** — saved usernames and (encrypted) passwords
-- **Autofill** — every value you ever typed into a web form
-- **Favicons** — cached icons that can prove a site was visited even after history is cleared
-- **Cookies** — session data from every site
+- **History** —> every URL you visited, when you visited it, how many times
+- **Downloads** —> every file you downloaded, where it came from, where it went
+- **Searches** —> every query you typed into the address bar
+- **Login Data** —> saved usernames and (encrypted) passwords
+- **Autofill** —> every value you ever typed into a web form
+- **Favicons** —> cached icons that can prove a site was visited even after history is cleared
+- **Cookies** —> session data from every site
 
 These files are stored in a folder on your computer and they're not going anywhere. `bfx export` reads all of them, converts everything into clean CSVs, and then `bfx` gives you a fast, readable terminal interface to investigate them.
 
@@ -43,7 +46,7 @@ These files are stored in a folder on your computer and they're not going anywhe
 
 - Python 3.8 or higher
 - Windows, macOS, or Linux
-- No external packages needed — everything uses Python's standard library
+- No external packages needed everything uses Python's standard library
 
 ---
 
@@ -72,7 +75,7 @@ You should see: `bfx 1.0.0`
 
 Everything in bfx follows the same pattern. First you export, then you explore.
 
-### Step 1 — Export
+### Step 1: Export
 
 You point `bfx export` at your browser folder. It finds all the SQLite databases, extracts every table, converts timestamps, enriches URLs, and writes everything to a folder of CSVs.
 
@@ -80,9 +83,9 @@ You point `bfx export` at your browser folder. It finds all the SQLite databases
 bfx export --folder "C:\Articats"
 ```
 
-This creates a `bfx_export` folder in your current directory. That folder is your **session** — you'll point every other command at it.
+This creates a `bfx_export` folder in your current directory. That folder is your **session** you'll point every other command at it.
 
-### Step 2 — Explore
+### Step 2: Explore
 
 Now you use `--session` to point bfx at that folder and run any command you like:
 
@@ -119,22 +122,22 @@ If you want to export directly from the browser's live profile folder (rather th
 
 ## Command Reference
 
-### `export` — Extract browser databases
+### `export` Extract browser databases
 
 This is always step one. It reads raw SQLite files and produces the CSV export that everything else works from.
 
 ```bash
 # Export a copied browser folder (most common use case)
-bfx export --folder "C:\Users\cryfo\Desktop\Browser"
+bfx export --folder "C:\Users\redacted\Desktop\Browser"
 
 # Export to a specific output folder
-bfx export --folder "C:\Users\cryfo\Desktop\Browser" --output .\my_exports
+bfx export --folder "C:\Users\redacted\Desktop\Browser" --output .\my_exports
 
 # Export from a live Chrome profile
-bfx export --folder "C:\Users\cryfo\AppData\Local\Google\Chrome\User Data\Default" --output .\exports
+bfx export --folder "C:\Users\redacted\AppData\Local\Google\Chrome\User Data\Default" --output .\exports
 
 # Export a single database file
-bfx export --file "C:\Users\cryfo\Desktop\Browser\History" --output .\exports
+bfx export --file "C:\Users\redacted\Desktop\Browser\History" --output .\exports
 
 # Export only specific tables
 bfx export --folder .\Browser --tables urls,visits,downloads
@@ -143,7 +146,7 @@ bfx export --folder .\Browser --tables urls,visits,downloads
 bfx export --folder .\Browser --limit 500 --output .\preview
 
 # Scan sub-folders too (useful for multi-profile Chrome installs)
-bfx export --folder "C:\Users\cryfo\AppData\Local\Google\Chrome\User Data" --recursive --output .\exports
+bfx export --folder "C:\Users\redacted\AppData\Local\Google\Chrome\User Data" --recursive --output .\exports
 ```
 
 **What it produces:**
@@ -204,7 +207,7 @@ The name on the left of each line — `urls`, `downloads`, `logins`, `visits` �
 
 ---
 
-### `head` and `tail` — Quick look at rows
+### `head` and `tail`  Quick look at rows
 
 The fastest way to see what's in a table. `head` shows the first N rows, `tail` shows the last N.
 
@@ -242,11 +245,11 @@ bfx --session bfx_export head logins --rows 5
   1 record(s)
 ```
 
-Wide tables — like `downloads` which has 28 columns — automatically display as vertical cards so nothing gets squashed. The `->` lines are enrichment values bfx added: the domain extracted from the URL, the URL category, and the timestamp converted to a readable date.
+Wide tables — like `downloads` which has 28 columns automatically display as vertical cards so nothing gets squashed. The `->` lines are enrichment values bfx added: the domain extracted from the URL, the URL category, and the timestamp converted to a readable date.
 
 ---
 
-### `view` — Browse a full table with pagination
+### `view` Browse a full table with pagination
 
 When you want to page through an entire table rather than just a preview.
 
@@ -269,7 +272,7 @@ bfx --session bfx_export view urls --json
 
 ---
 
-### `search` — Find anything across all tables at once
+### `search` Find anything across all tables at once
 
 This is probably the command you'll use most during an investigation. You give it a keyword and it scans every single table simultaneously, then groups the results by table so you can see exactly where each hit came from.
 
@@ -339,7 +342,7 @@ bfx --session bfx_export search "google" --rows 20
 
 ---
 
-### `filter` — Show only rows matching a condition
+### `filter` Show only rows matching a condition
 
 Where `search` is a broad keyword scan, `filter` is precise. You pick a column and a value, and it returns only the rows that match.
 
@@ -392,7 +395,7 @@ bfx --session bfx_export filter downloads --col danger_type --value 1 \
 
 ---
 
-### `summary` — Session overview in seconds
+### `summary` Session overview in seconds
 
 The first thing to run when you open a new case. Gives you the full picture: all tables and row counts, the date range of activity, top visited domains, top search queries, and download breakdown.
 
@@ -470,7 +473,7 @@ bfx --session bfx_export schema logins --samples 5
   ------  ---------------------  --------  ---------  ------  ----------------------------------
   1       id                     original  45         45      1  |  2  |  3
   2       origin_url             original  45         38      https://github.com  |  ...
-  3       username_value         original  45         12      cryfo_analyst  |  cryfo  |  ...
+  3       username_value         original  45         12      analyst_analyst  |  analyst  |  ...
   4       password_value         original  45         1       <BLOB: encrypted>
   7       date_created__HUMAN    enriched  45         38      2023-10-11 18:18:44 UTC  |  ...
   8       date_created__FORMAT   enriched  45         1       WebKit (Chrome)
@@ -478,11 +481,11 @@ bfx --session bfx_export schema logins --samples 5
   10      origin_url__CATEGORY   enriched  45         1       HTTPS
 ```
 
-Columns marked `enriched` were added by bfx — they didn't exist in the original database. Columns marked `original` are from the raw SQLite file exactly as Chrome stored them.
+Columns marked `enriched` were added by bfx they didn't exist in the original database. Columns marked `original` are from the raw SQLite file exactly as Chrome stored them.
 
 ---
 
-### `info` — Forensic metadata for a table
+### `info` Forensic metadata for a table
 
 Shows provenance information for chain-of-custody documentation: where the data came from, the MD5 hash of the source file, when it was exported, and the full column list.
 
@@ -500,7 +503,7 @@ bfx --session bfx_export info downloads
   Table name:                  logins
   Description:                 Saved login credentials (passwords encrypted)
 
-  Source database:             C:\Users\cryfo\Desktop\Browser\Login Data
+  Source database:             C:\Users\redacted\Desktop\Browser\Login Data
   DB description:              Saved Passwords (Hashed)
 
   Rows (this export):          45
@@ -528,7 +531,7 @@ bfx --session bfx_export info downloads
 
 ## Understanding the Enrichment Columns
 
-One of the more useful things bfx does automatically is add extra columns alongside timestamp and URL columns. Chrome stores timestamps as large integers and doesn't label URLs by protocol — bfx adds readable versions of both.
+One of the more useful things bfx does automatically is add extra columns alongside timestamp and URL columns. Chrome stores timestamps as large integers and doesn't label URLs by protocol bfx adds readable versions of both.
 
 Here's what gets added:
 
@@ -817,14 +820,14 @@ Adding a new command takes three steps: create `commands/cmd_newname.py` with a 
 | Brave | Full support |
 | Opera | Full support |
 | Vivaldi | Full support |
-| Firefox | Partial — exports work, some enrichment may not apply |
-| Safari | Partial — History.db exports; Cookies.binarycookies not supported |
+| Firefox | Partial exports work, some enrichment may not apply |
+| Safari | Partial History.db exports; Cookies.binarycookies not supported |
 
 ---
 
 ## Contributing
 
-If you find a bug, have a table or browser that isn't working right, or want to add a new command — open an issue or a pull request. The codebase is intentionally simple and modular so it's easy to extend.
+If you find a bug, have a table or browser that isn't working right, or want to add a new command open an issue or a pull request. The codebase is intentionally simple and modular so it's easy to extend.
 
 ---
 
